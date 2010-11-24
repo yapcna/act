@@ -6,7 +6,7 @@
 [% PROCESS menus/events %]
 [% PROCESS menus/treasurer %]
 [% PROCESS menus/admin %]
-[% PROCESS menus/sponsors %]
+[% PROCESS  menus/sponsors %]
 [% PROCESS menus/act_confs %]
 
 <div class="footer"> 

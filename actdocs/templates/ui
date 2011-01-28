@@ -11,7 +11,7 @@
 [% END %]
 <!-- JavaScript sugar -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script> 
-<script type="text/javascript" charset="utf-8" src='http://github.com/aristus/sweet-justice/raw/master/sweet-justice.min.js'></script> 
+<!-- <script type="text/javascript" charset="utf-8" src='http://github.com/aristus/sweet-justice/raw/master/sweet-justice.min.js'> --></script> 
 <script src="/js/act.js"></script>
 
 

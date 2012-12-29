@@ -1,0 +1,212 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="/yn2013/css/940.css" />
+<link rel="stylesheet" type="text/css" href="/css/act-base.css" />
+<link rel="stylesheet" type="text/css" href="/css/schedule.css" />
+<title>YAPC::NA 2013</title>
+
+<!-- JavaScript sugar -->
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/act.js"></script>
+<script language="javascript" type="text/javascript" src="/yn2013/js/tumblr.js"></script>
+
+ <link rel="alternate" type="application/atom+xml" title="[% global.conference.name %]"
+        href="[% global.request.base_url %][% make_uri_info( 'atom', global.request.language ) %].xml" />
+
+</head>
+<body>
+<div id="wrap">
+	<div id="header">
+		<a href="https://secure.donor.com/pf012/give" class="donatebtn"><h2>Donate Now!</h2><p>Help Create A Better Perl</p></a>
+		<img src="/yn2013/img/texas.png" alt="YAPC Logo">
+	</div>
+	
+	<div style="background-color: #336; height: 47px;">
+		<ul class="nav">
+	        <li><a href="/yn2013/">Home</a></li>
+	        <li><a href="/yn2013/conference.html">Conference</a>
+	            <ul class="subs">
+	                <li><a href="/yn2013/register">Register</a></li>
+	                <li class="hidden"><a href="/yn2013/schedule">View Schedule</a></li>
+	                <li><a href="/yn2013/volunteer.html">Volunteer</a></li>
+	                <li class="hidden"><a href="/yn2013/submitideas.html">Submit Ideas</a></li>
+	                <li class="hidden"><a href="/yn2013/travel.html">Travel</a></li>
+	                <li class="hidden"><a href="/yn2013/lodging">Lodging</a></li>
+	                <li><a href="/yn2013/wiki"> Wiki</a></li>
+	                <li><a href="/yn2013/newtalk">Submit a Talk</a></li>
+	            </ul>
+	        </li>
+	        <li><a href="/yn2013/sponsorship.html">Sponsorship</a>
+	            <!--ul class="subs" class="hidden">
+	                <li><a href="/yn2013/sponsorshiplevels.html">Sponsorship Levels</a></li>
+	                <li><a href="/yn2013/become-sponsorship.html">Become a Sponsor</a></li>
+	                <li><a href="/yn2013/our-sponsorship.html">Our Sponsors</a></li>
+	                <li><a href="/yn2013/stats">Stats</a></li>
+	            </ul-->
+	        </li>
+	        <li class="hidden"><a href="/yn2013/news">News & Updates</a></li>
+	        <li><a href="#">Social Connect</a>
+	         	<ul class="subs">
+			       <li class="hidden"><a href="/yn2013/photos.html">Photo Slide Show</a></li>
+			       <li class="hidden"><a href="/yn2013/gallery.html">Photo Gallery</a></li>
+			       <li><a href="https://www.facebook.com/yapcna">Facebook</a></li>
+			       <li><a href="https://twitter.com/#!/yapcna">Twitter</a></li>
+			       <li><a href="http://www.linkedin.com/groups/YAPC-NA-3982433">LinkedIN</a></li>
+			       <li><a href="https://plus.google.com/102557746746870253896">Google Plus</a></li>
+		           <li><a href="http://blog.yapcna.com/">Tumblr</a></li>
+		           <li class="hidden"><a href="#">Disqus</a></li>
+			       <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=yapcna2013">Subscribe to News</a></li>
+			   </ul>
+			</li>
+	
+	        <li class="hidden"><a href="/yn2013/otherconf.html">Other Conferences</a></li>   
+	        <li class="hidden"><a href="/yn2013/jobs.html">Perl Jobs</a></li>
+	        <li class="hidden"><a href="/yn2013/events.html">Events</a></li>
+		</ul>
+	</div>
+
+	<div style="clear:both"></div>
+
+	<div id="content">
+		[% content %]
+	</div>
+
+	<div id="sidebar">
+		<h3>Menu Navigation</h3>
+		<ul>
+			[% PROCESS menu %]
+		</ul>
+		
+		<h3>Previous Sponsors</h3>
+		<ul>
+			
+			<li> 	   
+				<a href="http://job.listings.cpanel.net" target="_new"><img src="[% make_uri('uploads/c2/23/c223e5f0783ae1ea298938d42c379df6/09-cpanel_company_logo.jpg') %]" alt="cPanel" title="cPanel"></a>
+			</li>
+			<li>
+				<a href="http://www.linode.com" target="_new"><img src="[% make_uri('uploads/56/56/56565a3c65d35fdab9d06158ad64048e/LinodeLogo.jpg') %]" alt="Linode" title="Linode"></a>
+			</li>
+			<li>
+				<a href="http://www.booking.com/jobs" target="_new"><img src="[% make_uri('uploads/4b/68/4b68e3e9b42587fabc02c03fe0de0db3/logo_FC_Regular_en.jpg') %]" alt="Booking.com" title="Booking.com"></a>
+			</li>
+			<li>
+				<a href="https://www.thegamecrafter.com/" target="_new"><img src="[% make_uri('uploads/8b/ff/8bffc18a6bc391530e63902ca3301548/250x160.png') %]" alt="The Game Crafter" title="The Game Crafter"></a>
+			</li>
+			<li>
+				<a href="http://www.shutterstock.com/" target="_new"><img src="[% make_uri('uploads/40/97/4097f525659678bea86adc30ed73b6d5/NEW-SSLogo_K.png') %]" alt="Shutterstock" title="Shutterstock"></a>
+			</li>
+			<li>
+				<a href="http://www.liquidweb.com" target="_new"><img src="[% make_uri('uploads/67/66/67669987a5fd897c4eb521ae6835901e/liquidweb-wht-sm.jpg') %]" alt="Liquid Web" title="Liquid Web"></a>
+			</li>
+			<li>
+				<a href="http://corvisa.com/" target="_new"><img src="[% make_uri('uploads/6d/7a/6d7a4aab6bd3630f55bcd6757d8f34ed/corvisa-logo-2in.jpg') %]" alt="Corvisa" title="Corvisa"></a>
+			</li>
+			<li>
+				<a href="http://www.uwex.edu/" target="_new"><img src="[% make_uri('uploads/58/9b/589b7789f8f81df060289622c0072775/uw-extension-logo-210x64.gif') %]" alt="UW Extension" title="UW Extension"></a>
+			</li>
+			<li>
+				<a href="http://dyn.com/" target="_new"><img src="[% make_uri('uploads/f7/09/f709665969d05f3db04bd2ecbfda105c/Dyn-logo2011-web.png') %]" alt="Dyn" title="Dyn"></a>
+			</li>
+			<li>
+				<a href="http://cargotel.com" target="_new"><img src="[% make_uri('uploads/c1/c6/c1c688a7bd0a00aa2306c4aa7511206a/cargotel_logo.png') %]" alt="CargoTel" title="CargoTel"></a>
+			</li>
+			<li>
+				<a href="http://www.thinkgeek.com" target="_new"><img src="[% make_uri('uploads/9b/db/9bdbc820d3328e7249efd0f066301034/thinkgeeklogo.gif') %]" alt="ThinkGeek" title="ThinkGeek"></a>
+			</li>
+			<li>
+				<a href="http://duckduckgo.com" target="_new"><img src="[% make_uri('uploads/c2/07/c207019819d2cbfac24df27ab6c60da4/nduck.v104.perl.png') %]" alt="DuckDuckGo" title="DuckDuckGo"></a>
+			</li>
+			<li>
+				<a href="http://ohpasw.com/" target="_new"><img src="[% make_uri('uploads/54/bc/54bc9a42852940a955057adde42df493/logo.png') %]" alt="OHPA Software" title="OHPA Software"></a>
+			</li>
+			<li>
+				<a href="http://github.com" target="_new"><img src="[% make_uri('uploads/57/fb/57fb54fb377927c967e631ff7a51554b/GitHub_Logo_SmartObject-copy.png') %]" alt="GitHub" title="GitHub"></a>
+			</li>
+			<li>
+				<a href="http://bestpractical.com" target="_new"><img src="[% make_uri('uploads/a1/5d/a15df9980820fbddbe727390d4031ac6/bpslogo.png') %]" alt="Best Practical" title="Best Practical"></a>
+			</li>
+			<li>
+				<a href="http://www.iinteractive.com/" target="_new"><img src="[% make_uri('uploads/3e/b4/3eb44e66fac72c3a66d9c9948f79b262/ii_logo.gif') %]" alt="Infinity Interactive" title="Infinity Interactive"></a>
+			</li>
+			<li>
+				<a href="http://www.grantstreet.com/" target="_new"><img src="[% make_uri('uploads/ce/5f/ce5f4c885ef11d0adfea24e7de42ceb2/GrantStreetGroup.png') %]" alt="Grant Street Group" title="Grant Street Group"></a>
+			</li>
+			<li>
+				<a href="http://www.pair.com/" target="_new"><img src="[% make_uri('uploads/b8/a1/b8a127a9e319b625eb3ad818191a6ce6/pair-Networks-logo-RGB.png') %]" alt="pair Networks" title="pair Networks"></a>
+			</li>
+			<li>
+				<a href="http://www.doubleprime.com" target="_new"><img src="[% make_uri('uploads/03/7a/037a60ed79f48009b9abcaa033930140/doubleprime.png') %]" alt="Double Prime" title="Double Prime"></a>
+			</li>
+			<li>
+				<a href="http://shadow.cat/" target="_new"><img src="[% make_uri('uploads/07/37/0737f321eac211b073c93e9c45f89f92/sc-logo-300.png') %]" alt="Shadow Cat Systems" title="Shadow Cat Systems"></a>
+			</li>
+			<li>
+				<a href="http://www.activestate.com" target="_new"><img src="[% make_uri('uploads/d4/85/d4854d026a807d1c11a2286aef1c8f66/as_logo_2012-1000px.png') %]" alt="ActiveState" title="ActiveState"></a>
+			</li>
+			<li>
+				<a href="http://www.rimmkaufman.com/" target="_new"><img src="[% make_uri('uploads/82/b9/82b94b1e0559a9003b1fc250354d0c85/rkg-final-logo.jpg') %]" alt="Rimm-Kaufman Group" title="Rimm-Kaufman Group"></a>
+			</li>
+			<li>
+				<a href="http://bluehost.com" target="_new"><img src="[% make_uri('uploads/16/6e/166e410f01edcf0e3428b9b14d0a0eb1/bh_logo_small_transparent.png') %]" alt="BlueHost" title="BlueHost"></a>
+			</li>
+			<li>
+				<a href="https://www.livetext.com/" target="_new"><img src="[% make_uri('uploads/9c/d3/9cd3da743bd30a66eaabdb81a508b90c/LiveText_logo_tm.jpg') %]" alt="LiveText" title="LiveText"></a>
+			</li>
+			<li>
+				<a href="http://www.perl-magazin.de/" target="_new"><img src="[% make_uri('uploads/f8/2d/f82d181a6514f2a4df0bdca350bf0c43/FooLogo.png') %]" alt="$foo Magazine" title="$foo Magazine"></a>
+			</li>
+			<li>
+				<a href="http://www.efjohnsontechnologies.com" target="_new"><img src="[% make_uri('uploads/0c/8d/0c8d1c3d171a8d54c369beddad98f274/sm_logo_tag.jpg') %]" alt="EF Johnson Technologies" title="EF Johnson Technologies"></a>
+			</li>
+			<li>
+				<a href="http://nostarch.com/" target="_new"><img src="[% make_uri('uploads/d2/03/d20355628f6ac26fb94fe579ef59ab22/mail.png') %]" alt="No Starch Press" title="No Starch Press"></a>
+			</li>
+			<li>
+				<a href="http://www.openmakesoftware.com/" target="_new"><img src="[% make_uri('uploads/22/a8/22a83d6725b5a96de28dcbebe9d56124/OM-2009-horizontal-381WD-clear.png') %]" alt="OpenMake Software" title="OpenMake Software"></a>
+			</li>
+			<li>
+				<a href="http://www.linuxfund.org" target="_new"><img src="[% make_uri('uploads/31/63/3163637a1ab81b79142c105c5b5c72cb/linuxfund-01.png') %]" alt="LinuxFund.org" title="LinuxFund.org"></a>
+			</li>
+			<li>
+				<a href="http://blog.nu42.com/" target="_new"><img src="[% make_uri('uploads/aa/49/aa4937828fa144ecb69be38df4968633/unur-yapc-na-2012-sponsorship-logo.png') %]" alt="A. Sinan Unur" title="A. Sinan Unur"></a>
+			</li>
+			<li>
+				<a href="http://www.mediamath.com/" target="_new"><img src="[% make_uri('uploads/1f/5f/1f5f55aa7b328600fd487a0f6dbcccfd/MediaMath_Logo.png') %]" alt="MediaMath" title="MediaMath"></a>
+			</li>
+			<li>
+				<a href="http://www.madmongers.org/" target="_new"><img src="[% make_uri('uploads/86/c5/86c5b4f8b55535c3dc2e8ac302ec7875/madmongers-black.png') %]" alt="MadMongers" title="MadMongers"></a>
+			</li>
+		</ul>
+	</div>
+
+	<div style="clear: both;"> </div>
+
+	<div id="columns">
+		<div id="column1" class="hidden">
+			<h3>Other Conferences</h3>
+			<ul>
+			</ul>
+		</div>
+		
+		<div id="column2" class="hidden">
+			<h3>Subscribe</h3>
+			<p><script type="text/javascript"  src="http://pcas.szabgab.com/ads/direct_link.js"></script></p>
+		</div>
+
+		<div id="column3" class="hidden">
+			<h3>Friends</h3>
+		</div>
+
+		<div style="clear: both;"> </div>
+	</div>
+
+	<div id="footer">Copyright 2013 The Perl Foundation</div>
+
+</div>
+
+

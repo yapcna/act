@@ -1,0 +1,52 @@
+[% WRAPPER ui title = global.conference.name %]
+
+<h1>
+Welcome to Our Conference web site.
+</h1>
+
+<p>
+<iframe src="http://player.vimeo.com/video/7528497?byline=0&amp;portrait=0&amp;color=d775eb" width="600" height="340" class="mid" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <small class="right align"><a href="http://vimeo.com/7528497">Austin After Dark</a> from <a href="http://vimeo.com/hardemanfilms">Brett Hardeman</a> on <a href="http://vimeo.com">Vimeo</a>.</small>
+</p>
+<div style="clear:both"></div>
+
+<p>The Yet Another Perl Conference is a highly educational and respected technical conference that celebrates the growth of the Perl programming language.  Rich in history, YAPC is open to all levels of programmers from the novice to highly skilled.  </p>
+
+<p>YAPC::NA 2013 is looking forward to gathering programmers from around the world June 3-5, 2013, in the Live Music Capital of the World – Austin, TX.</p>
+
+<p>The conference will be held at the Joe C. Thompson Conference Center located in the heart of Austin on the University of Texas Campus.</p>
+
+<p>Now that the stage is set for the YAPC::2013… How do we get the most fun and productivity out of the Perl Community? Watch this site for updates to find out what’s in store. </p>
+
+
+<p class="hidden">
+Watch this space for updates, or check the <a href="[% global.request.base_url %][% make_uri_info( 'atom', global.request.language ) %].xml">feed</a>.
+</p>
+
+[% news = global.news(3);
+   IF news.size > 2;
+     more = news.pop;
+   END;
+ %]
+
+[% IF news.size %]
+<h2>Latest News</h2>
+[% FOREACH item = news %]
+<div class="news-entry">
+ <h3 class="news-header">
+  <span class="news-date">[% date_format(item.datetime, 'date_short') %]</span>
+  <span class="news-title">[% item.title %]</span>
+ </h3>
+ <div class="news-text">
+  [% item.content %]
+ </div>
+</div>
+[% END %]
+[% END %]
+
+[% IF more %]
+<p>
+ <a href="[% make_uri('news') %]" class="news-link">Older announcements</a>
+</p>
+[% END %]
+
+[% END %]

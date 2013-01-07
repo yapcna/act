@@ -29,9 +29,9 @@
 	<div style="background-color: #336; height: 47px;">
 		<ul class="nav">
 	        <li><a href="/yn2013/">Home</a></li>
-	        <li><a href="/yn2013/conference.html">Conference</a>
+	        <li><a href="#">Conference</a>
 	            <ul class="subs">
-	                <li><a href="/yn2013/register">Register</a></li>
+	                <li class="hidden"><a href="/yn2013/register">Register</a></li>
 	                <li class="hidden"><a href="/yn2013/schedule">View Schedule</a></li>
 	                <li><a href="/yn2013/volunteer.html">Volunteer</a></li>
 	                <li class="hidden"><a href="/yn2013/submitideas.html">Submit Ideas</a></li>

@@ -1,5 +1,5 @@
 [% FILTER collapse %]
-[% PROCESS menus/user %]
+<!-- [% PROCESS menus/user %] -->
 [% PROCESS menus/users %]
 <li>[% PROCESS menus/news %]</li>
 <li>[% PROCESS menus/wiki %]</li>

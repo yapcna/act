@@ -1,9 +1,0 @@
- [% WRAPPER ui title="Photo Gallery" %]
-
-<h2>YAPC::NA Photo Gallery</h2>  
-
-    [% photos = flickr_get(42); FOREACH p = photos %]
-      <a href="[% p.photo_page %]"><img src="[% p.smallsquare %]" /></a>
-    [% END %]
-    
-  [% END %]

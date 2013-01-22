@@ -59,9 +59,9 @@
 			       <li><a href="https://twitter.com/#!/yapcna">Twitter</a></li>
 			       <li><a href="http://www.linkedin.com/groups/YAPC-NA-3982433">LinkedIN</a></li>
 			       <li><a href="https://plus.google.com/102557746746870253896">Google Plus</a></li>
-		           <li><a href="http://blog.yapcna.com/">Tumblr</a></li>
+		           <li><a href="http://blog.yapcna.com/">Blog (tumblr)</a></li>
 		           <li class="hidden"><a href="#">Disqus</a></li>
-			       <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=yapcna2013">Subscribe to News</a></li>
+			       <li class="hidden"><a href="http://feedburner.google.com/fb/a/mailverify?uri=yapcna2013">Subscribe to News</a></li>
 			   </ul>
 			</li>
 	

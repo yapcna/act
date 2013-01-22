@@ -29,11 +29,11 @@
 	<div style="background-color: #336; height: 47px;">
 		<ul class="nav">
 	        <li><a href="/yn2013/">Home</a></li>
+                <li><a href="http://blog.yapcna.org">Blog</a></li>
 	        <li><a href="#">Conference</a>
 	            <ul class="subs">
 	                <li class="hidden"><a href="/yn2013/register">Register</a></li>
 	                <li class="hidden"><a href="/yn2013/schedule">View Schedule</a></li>
-	                <li><a href="http://blog.yapcna.org">Blog</a></li>
 	                <li><a href="/yn2013/volunteer.html">Volunteer</a></li>
 	                <li class="hidden"><a href="/yn2013/submitideas.html">Submit Ideas</a></li>
 	                <li class="hidden"><a href="/yn2013/travel.html">Travel</a></li>

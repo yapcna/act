@@ -19,6 +19,8 @@
   }
 %]
 
+FOO
+
 <form method="POST" action="[% global.request.r.uri %]">
 
 [% IF return_url %]

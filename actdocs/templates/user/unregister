@@ -1,9 +1,7 @@
 [% WRAPPER ui title = loc('Registration') %]
 
 [% USE date %]
-[% IF date.now > end_date %]
-Now: [%date.now %]<br/>
-End: [% end_date %] <br/>
+[% IF 0; # date.now > end_date %]
 <p>
  {{Sorry, this conference is over.}}
 </p>

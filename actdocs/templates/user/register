@@ -2,6 +2,8 @@
 
 [% USE date %]
 [% IF date.now > end_date %]
+Now: [%date.now %]<br/>
+End: [% end_date %] <br/>
 <p>
  {{Sorry, this conference is over.}}
 </p>

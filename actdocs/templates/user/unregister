@@ -2,6 +2,8 @@
 
 [% USE date %]
 [% IF date.now > end_date %]
+Now: [%date.now %]<br/>
+End: [% end_date %] <br/>
 <p>
  {{Sorry, this conference is over.}}
 </p>
@@ -19,7 +21,7 @@
             <td>
             <table border="0" cellpadding="0" cellspacing="10">
             <tr>
-                <td colspan="3" align="right">
+                <td colspan="3" align="rigaht">
                     <div id="code" style="height: 300px; width: 400px; overflow:scroll; overflow-y:scroll; overflow-x:none width: 300px; text-align:left">
                         <h1>Code of Conduct</h1>
 

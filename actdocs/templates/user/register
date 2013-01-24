@@ -1,0 +1,72 @@
+[% WRAPPER ui title = loc('Registration') %]
+
+[% USE date %]
+[% IF date.now > end_date %]
+<p>
+ {{Sorry, this conference is over.}}
+</p>
+[% ELSE %]
+
+<p>
+ [% loc('To register to the <name> conference', global.conference.name) %]
+</p>
+
+<center>
+
+<form method="POST" action="[% global.request.r.uri %]">
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <td>
+            <table border="0" cellpadding="0" cellspacing="10">
+            <tr>
+                <td colspan="3" align="right">
+                    <textarea id="code" rows="20" cols="40">
+                        [% PROCESS custom\code-of-conduct.tt2 %]
+                    </textarea><br/>
+                    <a href="yn2013/code-of-conduct.html">Link to this agreement.</a>
+                </td>
+            </tr>
+            <tr>
+               <td colspan="3" align="right">
+                  <input type="checkbox" id="agree" /> <label for="agree">I agree to the above <b>Code of Conduct</b>.</label>
+               </td>
+            </tr>
+
+            <tr>
+               <td colspan="3" align="right">
+                  <input type="submit" id="join" disabled="disabled" name="join" value="{{Join}} [% global.conference.name %]" />
+               </td>
+            </tr>
+            </table>
+        </td>
+        </tr>
+    </table>
+</form>
+
+<script type="text/javascript">
+    window.onload = function() {
+        var code = document.getElementById("code");
+        var agree = document.getElementById("agree");
+        var join = document.getElementById("join");
+
+        // Set the focus to the code of conduct.
+        code.focus();
+
+        // Setup the click handler.
+        agree.onclick = function() {
+            if(agree.checked) {
+                // We can proceed.
+                join.disabled = false;
+            } else {
+                // No way.
+                join.disabled = true;
+            }
+        }
+    };
+</script>
+
+</center>
+
+[% END %]
+
+[% END %]

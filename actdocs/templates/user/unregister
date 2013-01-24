@@ -19,7 +19,7 @@
             <td>
             <table border="0" cellpadding="0" cellspacing="10">
             <tr>
-                <td colspan="3" align="rigaht">
+                <td colspan="3" align="right">
                     <div id="code" style="height: 300px; width: 400px; overflow:scroll; overflow-y:scroll; overflow-x:none width: 300px; text-align:left">
                         <h1>Code of Conduct</h1>
 

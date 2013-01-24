@@ -1,8 +1,5 @@
 [% WRAPPER ui title = global.conference.name %]
 
-[%# PROCESS custom/code-of-conduct.tt2 %]
-[% USE Stash %]
-[% USE Dumper %]
-[% Dumper.dump( Stash.stash() ) %]
+[% PROCESS custom/code-of-conduct %]
 
 [% END %]

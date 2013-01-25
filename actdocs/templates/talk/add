@@ -235,7 +235,7 @@
 [% END %]
 <tr>
    <td colspan="3" align="right">
-      <div class="warn">Talks will not be accepted if they can not be recorded.</div>
+      [% IF !talk_id %]<div class="warn" id="warning">Talks will not be accepted if they can not be recorded.</div>[% END %]
       <input type="submit" name="submit" id="submit" value="{{Submit this talk}}" [% IF !talk_id %]disabled="disabled"[% END %] />
    </td>
 </tr>
@@ -250,18 +250,18 @@
     window.onload = function() {
         var vidauth = document.getElementById("vidauth");
         var submit = document.getElementById("submit");
-        var msg = document.getElementById("msg");
+        var warning = document.getElementById("warning");
 
         // Setup the click handler.
         vidauth.onclick = function() {
             if(vidauth.checked) {
                 // We can proceed.
                 submit.disabled = false;
-                msg.className = "goaway";
+                warning.className = "goaway";
             } else {
                 // No way.
                 submit.disabled = true;
-                msg.className = "warn";
+                warning.className = "warn";
             }
         }
 

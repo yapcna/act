@@ -42,13 +42,11 @@
 	                <li><a href="/yn2013/newtalk">Submit a Talk</a></li>
 	            </ul>
 	        </li>
-	        <li><a href="/yn2013/sponsorship.html">Sponsorship</a>
-	            <!--ul class="subs" class="hidden">
-	                <li><a href="/yn2013/sponsorshiplevels.html">Sponsorship Levels</a></li>
-	                <li><a href="/yn2013/become-sponsorship.html">Become a Sponsor</a></li>
-	                <li><a href="/yn2013/our-sponsorship.html">Our Sponsors</a></li>
-	                <li><a href="/yn2013/stats">Stats</a></li>
-	            </ul-->
+	        <li><a href="#">Conference</a>
+	            <ul class="subs">
+	              <li><a href="/yn2013/sponsorship/intro">Sponsorship</a></li>
+	              <li><a href="/yn2013/sponsorship/become-a-sponsor">Become A Sponsor</a></li>
+		    </ul>
 	        </li>
 	        <li class="hidden"><a href="/yn2013/news">News & Updates</a></li>
 	        <li><a href="#">Social Connect</a>

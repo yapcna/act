@@ -19,6 +19,17 @@
   }
 %]
 
+<style type="text/css">
+    .warn {
+        margin: 5px;
+        border: 1px solid #C5B488;
+        background-color:#EBA470;
+        display: block;
+    }
+    .goaway {
+        display: none;
+    }
+</style>
 <form method="POST" action="[% global.request.r.uri %]" id="form">
 
 [% IF return_url %]
@@ -224,7 +235,7 @@
 [% END %]
 <tr>
    <td colspan="3" align="right">
-      <div style="margin: 5px; border: 1px solid #C5B488; background-color:#EBA470">Talks will not be accepted if they can not be recorded.</div>
+      <div class="warn">Talks will not be accepted if they can not be recorded.</div>
       <input type="submit" name="submit" id="submit" value="{{Submit this talk}}" disabled="disabled" />
    </td>
 </tr>
@@ -246,9 +257,11 @@
             if(vidauth.checked) {
                 // We can proceed.
                 submit.disabled = false;
+                msg.className = "goaway";
             } else {
                 // No way.
                 submit.disabled = true;
+                msg.className = "warn";
             }
         }
 

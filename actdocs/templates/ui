@@ -44,8 +44,8 @@
 	        </li>
 	        <li><a href="#">Conference</a>
 	            <ul class="subs">
-	              <li><a href="/yn2013/sponsorship/intro">Sponsorship</a></li>
-	              <li><a href="/yn2013/sponsorship/become-a-sponsor">Become A Sponsor</a></li>
+	              <li><a href="/yn2013/sponsorship">Sponsorship</a></li>
+	              <li><a href="/yn2013/become-a-sponsor">Become A Sponsor</a></li>
 		    </ul>
 	        </li>
 	        <li class="hidden"><a href="/yn2013/news">News & Updates</a></li>

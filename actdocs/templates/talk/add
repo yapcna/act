@@ -238,7 +238,7 @@
         var comment = document.getElementById("comment");
 
         form.onsubmit = function() {
-            comment.value = comment.value + "\n" + vidauth.checked ? "****Consented to be recorded.****" : "****Did not consent to be recorded.****";
+            comment.value = comment.value + "\n" + (vidauth.checked ? "****Consented to be recorded.****" : "****Did not consent to be recorded.****");
         }
     };
 </script>

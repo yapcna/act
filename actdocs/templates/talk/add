@@ -236,7 +236,7 @@
 <tr>
    <td colspan="3" align="right">
       <div class="warn">Talks will not be accepted if they can not be recorded.</div>
-      <input type="submit" name="submit" id="submit" value="{{Submit this talk}}" disabled="disabled" />
+      <input type="submit" name="submit" id="submit" value="{{Submit this talk}}" [% IF !talk_id %]disabled="disabled"[% END %] />
    </td>
 </tr>
 </table>

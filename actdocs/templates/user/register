@@ -2,8 +2,6 @@
 
 [% USE date %]
 [% IF date.now > end_date %]
-Now: [%date.now %]<br/>
-End: [% end_date %] <br/>
 <p>
  {{Sorry, this conference is over.}}
 </p>
@@ -22,8 +20,8 @@ End: [% end_date %] <br/>
             <table border="0" cellpadding="0" cellspacing="10">
             <tr>
                 <td colspan="3" align="rigaht">
-                    <div id="code" style="height: 300px; width: 400px; overflow:scroll; overflow-y:scroll; overflow-x:none width: 300px; text-align:left">
-                        <h1>Code of Conduct</h1>
+                    <div id="code" style="padding-top: 10px; height: 300px; width: 420px; overflow:scroll; overflow-y:scroll; overflow-x:none width: 300px; text-align:left">
+                        <h1 style="margin-bottom: 15px">Code of Conduct</h1>
 
                         <h2>1. Purpose</h2>
 
@@ -84,19 +82,19 @@ End: [% end_date %] <br/>
                         is being subject to unacceptable behavior, or have any other concerns,
                         please notify Will Braswell as soon as possible.</p>
 
-                        <p>Contact Information:</p>
+                        <h2>Contact Information:</h2>
 
-                        <p>YAPC::NA Director</p>
-                        <p>(phone number TBA)</p>
-                        <p><a href="mailto:admin@yapcna.org">admin@yapcna.org</a></p>
+                        <div style="padding-left: 10px; padding-right: 10px">YAPC::NA Director</div>
+                        <div style="padding-left: 10px; padding-right: 10px">(phone number TBA)</div>
+                        <div style="padding-left: 10px; padding-right: 10px"><a href="mailto:admin@yapcna.org">admin@yapcna.org</a></div>
                     </div>
                     </div>
-                    <a href="yn2013/code-of-conduct.html">Link to this agreement.</a>
+                    <a href="code-of-conduct.html">Link to this agreement.</a>
                 </td>
             </tr>
             <tr>
                <td colspan="3" align="right">
-                  <input type="checkbox" id="agree" /> <label for="agree">I agree to the above <b>Code of Conduct</b>.</label>
+                  <input type="checkbox" id="agree" style="vertical-align: middle" /> <label for="agree" style="vertical-align: middle">I agree to the above <b>Code of Conduct</b>.</label>
                </td>
             </tr>
 

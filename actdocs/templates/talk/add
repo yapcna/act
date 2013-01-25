@@ -215,14 +215,17 @@
     [% END %]
    </td>
 </tr>
+[% IF !talk_id %]
 <tr>
    <td colspan="3" align="right">
         <input type="checkbox" id="vidauth" style="vertical-align: middle" /> <label for="agree" style="vertical-align: middle">By checking this box you are giving your consent to the possible inclusion of your likeness in photos, videos and electronic recordings for use by YAPC::NA in various media forms, and you release YAPC::NA from any claims or liabilities if your likeness is used.</label>
    </td>
 </tr>
+[% END %]
 <tr>
    <td colspan="3" align="right">
-      <input type="submit" name="submit" id="submit" value="{{Submit this talk}}" />
+      <div style="margin: 5px; border: 1px solid #C5B488; background-color:#EBA470">Talks will not be accepted if they can not be recorded.</div>
+      <input type="submit" name="submit" id="submit" value="{{Submit this talk}}" disabled="disabled" />
    </td>
 </tr>
 </table>
@@ -231,9 +234,25 @@
 </form>
 </center>
 
+[% IF !talk_id %]
 <script type="text/javascript">
     window.onload = function() {
         var vidauth = document.getElementById("vidauth");
+        var submit = document.getElementById("submit");
+        var msg = document.getElementById("msg");
+
+        // Setup the click handler.
+        vidauth.onclick = function() {
+            if(vidauth.checked) {
+                // We can proceed.
+                submit.disabled = false;
+            } else {
+                // No way.
+                submit.disabled = true;
+            }
+        }
+
+
         var form = document.getElementById("form");
         var comment = document.getElementById("comment");
 
@@ -242,6 +261,7 @@
         }
     };
 </script>
+[% END %]
 
 
 [% END %]

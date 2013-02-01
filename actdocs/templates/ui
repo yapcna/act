@@ -32,6 +32,7 @@
                 <li><a href="http://blog.yapcna.org">Blog</a></li>
 	        <li><a href="#">Conference</a>
 	            <ul class="subs">
+	                <li><a href="/yn2013/code-of-conduct.html">Code of Conduct</a></li>
 	                <li class="hidden"><a href="/yn2013/register">Register</a></li>
 	                <li class="hidden"><a href="/yn2013/schedule">View Schedule</a></li>
 	                <li><a href="/yn2013/volunteer.html">Volunteer</a></li>

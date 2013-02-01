@@ -1,0 +1,3 @@
+<ul id="sponsors">
+
+<li><a href="http://job.listings.cpanel.net" target="_new"><img src="[% make_uri('img/sponsors/09-cpanel_company_logo.jpg') %]"" alt="cPanel" title="cPanel"></a></li>

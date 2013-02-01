@@ -83,6 +83,8 @@
 		<ul>
 			[% PROCESS menu %]
 		</ul>
+		<h3> Our Sponsors</h3>
+		[% PROCESS sponsors %]
 	</div>
 
 	<div style="clear: both;"> </div>

@@ -27,50 +27,50 @@
 	</div>
 	
 	<div style="background-color: #336; height: 47px;">
-		<ul class="nav">
-	        <li><a href="/yn2013/">Home</a></li>
-                <li><a href="http://blog.yapcna.org">Blog</a></li>
-	        <li><a href="#">Conference</a>
-	            <ul class="subs">
-	                <li><a href="/yn2013/code-of-conduct.html">Code of Conduct</a></li>
-	                <li class="hidden"><a href="/yn2013/register">Register</a></li>
-	                <li class="hidden"><a href="/yn2013/schedule">View Schedule</a></li>
-	                <li><a href="/yn2013/volunteer.html">Volunteer</a></li>
-	                <li class="hidden"><a href="/yn2013/submitideas.html">Submit Ideas</a></li>
-	                <li class="hidden"><a href="/yn2013/travel.html">Travel</a></li>
-	                <li class="hidden"><a href="/yn2013/lodging">Lodging</a></li>
-	                <li><a href="/yn2013/wiki"> Wiki</a></li>
-	                <li><a href="/yn2013/newtalk">Submit a Talk</a></li>
-	            </ul>
-	        </li>
-	        <li><a href="#">Sponsorship</a>
-	            <ul class="subs">
-	              <li><a href="/yn2013/sponsorship.html">Sponsorship</a></li>
-	              <li><a href="/yn2013/levels-of-sponsorship.html">Levels of Sponsorship</a></li>
-	              <li><a href="/yn2013/become-a-sponsor.html">Become A Sponsor</a></li>
-	              <li><a href="/yn2013/our-sponsors.html">Our Sponsors</a></li>
-		    </ul>
-	        </li>
-               <li><a href="/yn2013/job-fair.html">Job Fair</a></li>
-	        <li class="hidden"><a href="/yn2013/news">News & Updates</a></li>
-	        <li><a href="#">Social Connect</a>
-	         	<ul class="subs">
-			       <li class="hidden"><a href="/yn2013/photos.html">Photo Slide Show</a></li>
-			       <li class="hidden"><a href="/yn2013/gallery.html">Photo Gallery</a></li>
-			       <li><a href="https://www.facebook.com/yapcna">Facebook</a></li>
-			       <li><a href="https://twitter.com/#!/yapcna">Twitter</a></li>
-			       <li><a href="http://www.linkedin.com/groups/YAPC-NA-3982433">LinkedIN</a></li>
-			       <li><a href="https://plus.google.com/102557746746870253896">Google Plus</a></li>
-		           <li><a href="http://blog.yapcna.com/">Blog (tumblr)</a></li>
-		           <li class="hidden"><a href="#">Disqus</a></li>
-			       <li class="hidden"><a href="http://feedburner.google.com/fb/a/mailverify?uri=yapcna2013">Subscribe to News</a></li>
-			   </ul>
-			</li>
-	
-	        <li class="hidden"><a href="/yn2013/otherconf.html">Other Conferences</a></li>   
-	        <li class="hidden"><a href="/yn2013/jobs.html">Perl Jobs</a></li>
-	        <li class="hidden"><a href="/yn2013/events.html">Events</a></li>
-		</ul>
+	  <ul class="nav">
+	    <li><a href="/yn2013/">Home</a></li>
+            <li><a href="http://blog.yapcna.org">Blog</a></li>
+	    <li><a href="#">Conference</a>
+	      <ul class="subs">
+	        <li><a href="/yn2013/yapc-history.html">YAPC History</a></li>
+	        <li><a href="/yn2013/code-of-conduct.html">Code of Conduct</a></li>
+	        <li><a href="/yn2013/register">Register</a></li>
+	        <li class="hidden"><a href="/yn2013/schedule">View Schedule</a></li>
+	        <li class="hidden"><a href="/yn2013/volunteer.html">Volunteer</a></li>
+	        <li><a href="http://ideas.yapcna.org" target="_new">Submit Ideas</a></li>
+	        <li class="hidden"><a href="/yn2013/travel.html">Travel</a></li>
+	        <li class="hidden"><a href="/yn2013/lodging">Lodging</a></li>
+	        <li><a href="/yn2013/wiki"> Wiki</a></li>
+	        <li><a href="/yn2013/newtalk">Submit a Talk</a></li>
+	      </ul>
+	    </li>
+	    <li><a href="#">Sponsorship</a>
+	      <ul class="subs">
+	        <li><a href="/yn2013/sponsorship.html">Sponsorship</a></li>
+	        <li><a href="/yn2013/levels-of-sponsorship.html">Levels of Sponsorship</a></li>
+	        <li><a href="/yn2013/become-a-sponsor.html">Become A Sponsor</a></li>
+	        <li><a href="/yn2013/our-sponsors.html">Our Sponsors</a></li>
+	      </ul>
+	    </li>
+            <li><a href="/yn2013/job-fair.html">Job Fair</a></li>
+	    <li class="hidden"><a href="/yn2013/news">News & Updates</a></li>
+	    <li><a href="#">Social Connect</a>
+	      <ul class="subs">
+		<li class="hidden"><a href="/yn2013/photos.html">Photo Slide Show</a></li>
+		<li class="hidden"><a href="/yn2013/gallery.html">Photo Gallery</a></li>
+		<li><a href="https://www.facebook.com/yapcna">Facebook</a></li>
+		<li><a href="https://twitter.com/#!/yapcna">Twitter</a></li>
+		<li><a href="http://www.linkedin.com/groups/YAPC-NA-3982433">LinkedIN</a></li>
+		<li><a href="https://plus.google.com/102557746746870253896">Google Plus</a></li>
+		<li><a href="http://blog.yapcna.com/">Blog (tumblr)</a></li>
+		<li class="hidden"><a href="#">Disqus</a></li>
+		<li class="hidden"><a href="http://feedburner.google.com/fb/a/mailverify?uri=yapcna2013">Subscribe to News</a></li>
+	      </ul>
+	    </li>
+	    <li class="hidden"><a href="/yn2013/otherconf.html">Other Conferences</a></li>   
+	    <li class="hidden"><a href="/yn2013/jobs.html">Perl Jobs</a></li>
+	    <li class="hidden"><a href="/yn2013/events.html">Events</a></li>
+	  </ul>
 	</div>
 
 	<div style="clear:both"></div>

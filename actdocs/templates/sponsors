@@ -8,6 +8,7 @@
 <li><a href="http://www.linode.com/" target="_new"><img src="[% make_uri('img/sponsors/Linode_200.png') %]" alt="Linode" title="Linode"></a></li>
 
 <h3>Silver Sponsors</h3>
+<li><a href="http://www.thegamecrafter.com/" target="_new"><img src="[% make_uri('img/sponsors/GameCrafter_200.png') %]" alt="Game Crafter" title="Game Crafter"></a></li>
 <li><a href="http://www.rimmkaufman.com/" target="_new"><img src="[% make_uri('img/sponsors/RKG-logo-200.jpg') %]" alt="RKG" title="RKG"></a></li>
 
 <h3>Gold Sponsors</h3>

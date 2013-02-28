@@ -137,8 +137,10 @@ background: #2C2D2F;
 padding: 0 0 0 10px;
 font-size: 16px;
 }
-
-#content p { padding: 0 10px 10px 10px; color: #232323;}
+#content h3 {
+	margin: 10px 0 0 10px;
+}
+#content p { padding: 0 10px 10px 10px; color: #232323; margin-top:0;}
 #content ul { padding: 0 20px 10px 30px; }
 
 #sidebar {
@@ -326,3 +328,14 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 95%, from(rgba(255, 255, 25
     background-image: -o-linear-gradient(-90deg,rgba(255,255,255,0.5),rgba(255,255,25,0));
 }
 
+#content table:first-child {
+	margin: 0px 0 20px 0;
+}
+#code {
+	overflow: auto !important;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding: 15px 0 0 0 !important;
+	width: 550px !important;
+}
+#code h1 {padding: 0;}

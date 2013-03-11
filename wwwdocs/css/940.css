@@ -42,7 +42,7 @@ h1 a:hover { border-bottom: 1px solid #F9F7ED; color: #F9F7ED; }
 table {
     font-family: "Trebuchet MS", sans-serif;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 1.4em;
     font-style: normal;
     border: 0px;
@@ -339,5 +339,3 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 95%, from(rgba(255, 255, 25
 	width: 550px !important;
 }
 #code h1 {padding: 0;}
-
-table#user-list { font-weight: normal }

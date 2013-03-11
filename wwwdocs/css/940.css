@@ -339,3 +339,5 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 95%, from(rgba(255, 255, 25
 	width: 550px !important;
 }
 #code h1 {padding: 0;}
+
+table#user-list { font-weight: normal }

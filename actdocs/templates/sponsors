@@ -19,4 +19,5 @@
 <h3>Silver Sponsors</h3>
 <ul id="sponsors">
 <li><a href="http://www.rimmkaufman.com/" target="_new"><img src="[% make_uri('img/sponsors/RKG-logo-200.jpg') %]" alt="RKG" title="RKG"></a></li>
+<li><a href="http://www.grantstreet.com/" target="_new"><img src="[% make_uri('img/sponsors/GrantStreetGroup.png') %]" alt="GrantStreet" title="GrantStreet"></a></li>
 </ul>

@@ -339,3 +339,23 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 95%, from(rgba(255, 255, 25
 	width: 550px !important;
 }
 #code h1 {padding: 0;}
+
+#content div.tumblr_title {
+    background: none repeat scroll 0 0 #2C2D2F;
+    color: #F9F7ED;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0 0 0 10px;
+    
+}
+
+#content ol.tumblr_posts {
+    padding: 0;
+    margin: 0;
+}
+
+#content li.tumblr_post {
+    list-style: none;
+}

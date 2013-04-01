@@ -14,6 +14,7 @@
 <ul id="sponsors">
 <li><a href="http://www.thegamecrafter.com/" target="_new"><img src="[% make_uri('img/sponsors/GameCrafter_200.png') %]" alt="Game Crafter" title="Game Crafter"></a></li>
 <li><a href="http://www.mediamath.com/" target="_new"><img src="[% make_uri('img/sponsors/MediaMath_200.png') %]" alt="MediaMath" title="MediaMath"></a></li>
+<li><a href="http://www.shutterstock.com/jobs.mhtml" target="_new"><img src="[% make_uri('img/sponsors/SS_Logo_200.png') %]" alt="Shutterstock" title="Shutterstock"></a></li>
 </ul>
 
 <h3>Silver Sponsors</h3>

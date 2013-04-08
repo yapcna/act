@@ -8,6 +8,7 @@
 <h3>Platinum Sponsors</h3>
 <ul id="sponsors">
 <li><a href="http://www.linode.com/" target="_new"><img src="[% make_uri('img/sponsors/Linode_200.png') %]" alt="Linode" title="Linode"></a></li>
+<li><a href="http://www.athenahealth.com/careers/" target="_new"><img src="[% make_uri('img/sponsors/athenahealth_200.png') %]" alt="AthenaHealth" title="AthenaHealth"></a></li>
 </ul>
 
 <h3>Gold Sponsors</h3>
@@ -15,6 +16,7 @@
 <li><a href="http://www.thegamecrafter.com/" target="_new"><img src="[% make_uri('img/sponsors/GameCrafter_200.png') %]" alt="Game Crafter" title="Game Crafter"></a></li>
 <li><a href="http://www.mediamath.com/" target="_new"><img src="[% make_uri('img/sponsors/MediaMath_200.png') %]" alt="MediaMath" title="MediaMath"></a></li>
 <li><a href="http://www.shutterstock.com/jobs.mhtml" target="_new"><img src="[% make_uri('img/sponsors/SS_Logo_200.png') %]" alt="Shutterstock" title="Shutterstock"></a></li>
+<li><a href="http://bluehost.com/boss" target="_new"><img src="[% make_uri('img/sponsors/bluehost.com_200.png') %]" alt="BlueHost" title="BlueHost"></a></li>
 </ul>
 
 <h3>Silver Sponsors</h3>

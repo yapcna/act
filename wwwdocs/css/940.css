@@ -359,3 +359,11 @@ background-image: -webkit-gradient(linear, 0% 0%, 0% 95%, from(rgba(255, 255, 25
 #content li.tumblr_post {
     list-style: none;
 }
+
+#content table.user-info {
+    width: 100%;
+}
+
+#content table.user-info table {
+    width: inherit
+}

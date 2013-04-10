@@ -30,19 +30,23 @@
 	  <ul class="nav">
 	    <li><a href="/yn2013/">Home</a></li>
             <li><a href="http://blog.yapcna.org">Blog</a></li>
+	    <li><a href="#">Schedule</a>
+	      <ul class="subs">
+	        <li><a href="/yn2013/newtalk">Submit a Lightning Talk</a></li>
+	        <li><a href="/yn2013/schedule">View Schedule</a></li>
+		<li><a href="/yn2013/training.html">Master Classes</a></li>
+	      </ul>
+	    </li>
 	    <li><a href="#">Conference</a>
 	      <ul class="subs">
-	        <li><a href="/yn2013/yapc-history.html">YAPC History</a></li>
-	        <li><a href="/yn2013/code-of-conduct.html">Code of Conduct</a></li>
 	        <li><a href="/yn2013/register">Register</a></li>
 	        <li><a href="/yn2013/purchase">Purchase</a></li>
-	        <li><a href="/yn2013/newtalk">Submit a Talk</a></li>
-	        <li class="hidden"><a href="/yn2013/schedule">View Schedule</a></li>
-	        <li><a href="http://ideas.yapcna.org" target="_new">Submit Ideas</a></li>
-		<li><a href="/yn2013/training.html">Master Classes</a></li>
+	        <li class="hidden"><a href="http://ideas.yapcna.org" target="_new">Submit Ideas</a></li>
 	        <li><a href="/yn2013/volunteer.html">Volunteer</a></li>
 	        <li><a href="/yn2013/stats">Who&#39;s Coming?</a></li>
 	        <li><a href="/yn2013/wiki">Wiki</a></li>
+	        <li><a href="/yn2013/yapc-history.html">YAPC History</a></li>
+	        <li><a href="/yn2013/code-of-conduct.html">Code of Conduct</a></li>
 	      </ul>
 	    </li>
 	    <li><a href="#">Getting There</a>

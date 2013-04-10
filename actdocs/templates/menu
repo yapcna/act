@@ -1,7 +1,6 @@
 [% FILTER collapse %]
 [% PROCESS menus/user %]
 [% PROCESS menus/users %]
-<li>[% PROCESS menus/news %]</li>
 <li>[% PROCESS menus/wiki %]</li>
 <li>[% PROCESS menus/talks %]</li>
 [% PROCESS menus/events %]

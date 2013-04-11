@@ -28,45 +28,54 @@
 	
 	<div style="background-color: #336; height: 47px;">
 	  <ul class="nav">
-	    <li><a href="/yn2013/">Home</a></li>
-            <li><a href="http://blog.yapcna.org">Blog</a></li>
-	    <li><a href="#">Schedule</a>
+	    <li><a href="/yn2013/">Home</a>
 	      <ul class="subs">
-	        <li><a href="/yn2013/newtalk">Submit a &#x263C;-ning Talk</a></li>
-	        <li><a href="/yn2013/schedule">View Schedule</a></li>
-		<li><a href="/yn2013/training.html">Master Classes</a></li>
+	        <li><a href="/yn2013/yapc-history.html">YAPC History</a></li>
+	        <li><a href="/yn2013/code-of-conduct.html">Code of Conduct</a></li>
+	        <li><a href="/yn2013/volunteer.html">Volunteer</a></li>
+	        <li><a href="/yn2013/wiki">Wiki Home</a></li>
+	      </ul>
+        </li>
+	    <li><a href="http://blog.yapcna.org">Blog</a></li>
+	    <li><a href="/yn2013/schedule">Schedule</a>
+	      <ul class="subs">
+	        <li><a href="/yn2013/schedule">Daily Schedule</a></li>
+	        <li><a href="/yn2013/wiki?node=LunchEateries">Lunch Eateries</a></li>
+	        <li><a href="/yn2013/training.html">Master Classes</a></li>
+	        <li><a href="/yn2013/wiki?node=Hackathons">Hackathons</a></li>
+	        <li><a href="/yn2013/wiki?node=ArrivalDinner">Arrival Dinner</a></li>
+	        <li><a href="/yn2013/newtalk">New Lightning Talk</a></li>
+	        <li><a href="/yn2013/wiki?node=SuggestedBOFs">Organize BOFs</a></li>
+	        <li><a href="/yn2013/wiki?node=GameNight">Game Night</a></li>
 	      </ul>
 	    </li>
 	    <li><a href="#">Conference</a>
 	      <ul class="subs">
-	        <li><a href="/yn2013/register">Register</a></li>
-	        <li><a href="/yn2013/purchase">Purchase</a></li>
+	        <li><a href="/yn2013/register">Account and Signup</a></li>
+	        <li><a href="/yn2013/purchase">Purchase Ticket</a></li>
 	        <li class="hidden"><a href="http://ideas.yapcna.org" target="_new">Submit Ideas</a></li>
-	        <li><a href="/yn2013/volunteer.html">Volunteer</a></li>
 	        <li><a href="/yn2013/stats">Who&#39;s Coming?</a></li>
-	        <li><a href="/yn2013/wiki">Wiki</a></li>
-	        <li><a href="/yn2013/yapc-history.html">YAPC History</a></li>
-	        <li><a href="/yn2013/code-of-conduct.html">Code of Conduct</a></li>
 	      </ul>
 	    </li>
 	    <li><a href="#">Getting There</a>
-              <ul class="subs">
+	      <ul class="subs">
+	        <li><a href="/yn2013/wiki?node=CampusShuttle">Campus Shuttle</a></li>
 	        <li><a href="/yn2013/travel.html">Travel</a></li>
 	        <li><a href="/yn2013/parking.html">Parking</a></li>
 	        <li><a href="/yn2013/lodging.html">Lodging</a></li>
-		<li><a href="/yn2013/wiki?node=ThingsToDo">Around Austin</a></li>
-		<li><a href="/yn2013/map.html">Map</a></li>
+	        <li><a href="/yn2013/map.html">Austin Map</a></li>
+	        <li><a href="/yn2013/wiki?node=ThingsToDo">Around Austin</a></li>
 	      </ul>
 	    </li>
-	    <li><a href="#">Sponsorship</a>
+	    <li><a href="/yn2013/sponsorship.html">Sponsorship</a>
 	      <ul class="subs">
-	        <li><a href="/yn2013/sponsorship.html">Sponsorship</a></li>
+	        <li><a href="/yn2013/sponsorship.html">Overview</a></li>
 	        <li><a href="/yn2013/levels-of-sponsorship.html">Levels of Sponsorship</a></li>
 	        <li><a href="/yn2013/become-a-sponsor.html">Become A Sponsor</a></li>
 	        <li><a href="/yn2013/our-sponsors.html">Our Sponsors</a></li>
 	      </ul>
 	    </li>
-            <li><a href="/yn2013/job-fair.html">Job Fair</a></li>
+	    <li><a href="/yn2013/job-fair.html">Job Fair</a></li>
 	    <li><a href="#">Social Connect</a>
 	      <ul class="subs">
 		<li class="hidden"><a href="/yn2013/photos.html">Photo Slide Show</a></li>

@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="/yn2013/css/940.css" />
 <link rel="stylesheet" type="text/css" href="/css/act-base.css" />
 <link rel="stylesheet" type="text/css" href="/css/schedule.css" />
-<title>YAPC::NA 2013</title>
+<title>YAPC::NA 2013 - June 3-5, Austin, Texas</title>
 
 <!-- JavaScript sugar -->
 <script type="text/javascript" src="/js/jquery.js"></script>
@@ -53,12 +53,17 @@
 	      <ul class="subs">
 	        <li><a href="/yn2013/register">Account and Signup</a></li>
 	        <li><a href="/yn2013/purchase">Purchase Ticket</a></li>
+	        <li><a href="/yn2013/talks">Talks By Track</a></li>
+	        <li><a href="/yn2013/favtalks">Talks By # Starred</a></li>
 	        <li class="hidden"><a href="http://ideas.yapcna.org" target="_new">Submit Ideas</a></li>
 	        <li><a href="/yn2013/stats">Who&#39;s Coming?</a></li>
+	        <li><a href="/yn2013/wiki?node=TalkVideos">Talk Videos (TBA)</a></li>
 	      </ul>
 	    </li>
-	    <li><a href="#">Getting There</a>
+	    <li><a href="#">Venue &amp; Travel</a>
 	      <ul class="subs">
+	        <li><a href="/yn2013/wiki?node=LBJAuditorium">LBJ Auditorium</a></li>
+	        <li><a href="/yn2013/wiki?node=Thompson">Thompson (TCC)</a></li>
 	        <li><a href="/yn2013/wiki?node=CampusShuttle">Campus Shuttle</a></li>
 	        <li><a href="/yn2013/travel.html">Travel</a></li>
 	        <li><a href="/yn2013/parking.html">Parking</a></li>

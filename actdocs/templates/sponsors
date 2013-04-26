@@ -25,10 +25,12 @@
 <li><a href="http://www.grantstreet.com/" target="_new"><img src="[% make_uri('img/sponsors/GrantStreetGroup.png') %]" alt="GrantStreet" title="GrantStreet"></a></li>
 <li><a href="http://perl6.com/" target="_new"><img src="[% make_uri('img/sponsors/perl6_com_200.png') %]" alt="perl6.com" title="perl6.com"></a></li>
 <li><a href="http://www.hostgator.com/jobs/" target="_new"><img src="[% make_uri('img/sponsors/HostGator_200.png') %]" alt="Host Gator" title="Host Gator"></a></li>
+<li><a href="http://www.dreamwidth.org/" target="_new"><img src="[% make_uri('img/sponsors/dw_logo_200.png') %]" alt="Dreamwidth Studios" title="Dreamwidth Studios"></a></li>
 </ul>
 
 <h3>Bronze Sponsors</h3>
 <ul id="sponsors">
 <li><a href="http://www.efjohnsontechnologies.com/" target="_new"><img src="[% make_uri('img/sponsors/efj_200.png') %]" alt="EFJ" title="EFJ"></a></li>
 <li><a href="http://pragprog.com/" target="_new"><img src="[% make_uri('img/sponsors/Pragmatic_200.png') %]" alt="PRAGMATIC" title="PRAGMATIC"></a></li>
+<li><a href="http://bestpractical.com/" target="_new"><img src="[% make_uri('img/sponsors/BPS_Logo_200.png') %]" alt="Best Practical" title="Best Practical"></a></li>
 </ul>

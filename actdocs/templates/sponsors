@@ -35,7 +35,7 @@
 <li><a href="http://bestpractical.com/" target="_new"><img src="[% make_uri('img/sponsors/BPS_Logo_200.png') %]" alt="Best Practical" title="Best Practical"></a></li>
 </ul>
 
-<h3>Sites which promote YAPC</h3>>
+<h3>Sites which promote YAPC</h3>
 The <a href="http://perlweekly.com/">Perl Weekly newsletter</a> and the
 <a href="http://perl5maven.com/">Perl 5 Maven</a> site help us spread the news
 about YAPC::NA.

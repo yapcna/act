@@ -3,7 +3,7 @@
 <ul id="sponsors">
 <li><a href="http://job.listings.cpanel.net" target="_new"><img src="[% make_uri('img/sponsors/09-cpanel_company_logo.jpg') %]" alt="cPanel" title="cPanel"></a></li>
 <li><a href="https://www.whitehatsec.com" target="_new"><img src="[% make_uri('img/sponsors/whitehatsec.gif') %]" alt="WhiteHat Security" title="WhiteHat Security"></a></li>
-<li><a href="https://www.liquidweb.com/" target="_new"><img width="200" src="[% make_uri('img/sponsors/liquidweb-logo-yapc.png') %]" alt="Liquid Web" title="Liquid Web"></a></li>
+<li><a href="https://www.liquidweb.com/" target="_new"><img width="200" src="[% make_uri('img/sponsors/liquidweb_200.png') %]" alt="Liquid Web" title="Liquid Web"></a></li>
 </ul>
 
 <h3>Platinum Sponsors</h3>

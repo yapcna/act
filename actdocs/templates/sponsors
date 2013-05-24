@@ -29,6 +29,7 @@
 <li><a href="http://www.hostgator.com/jobs/" target="_new"><img src="[% make_uri('img/sponsors/HostGator_200.png') %]" alt="Host Gator" title="Host Gator"></a></li>
 <li><a href="http://www.dreamwidth.org/" target="_new"><img src="[% make_uri('img/sponsors/dw_logo_200.png') %]" alt="Dreamwidth Studios" title="Dreamwidth Studios"></a></li>
 <li><a href="http://www.qsii.com/" target="_new"><img src="[% make_uri('img/sponsors/nextgen_logo_200.png') %]" alt="NextGen Healthcare" title="NextGen Healthcare"></a></li>
+<li><a href="http://www.dyn.com/" target="_new"><img src="[% make_uri('img/sponsors/dyn_logo_200.png') %]" alt="Dyn" title="Dyn"></a></li>
 </ul>
 
 <h3>Bronze Sponsors</h3>

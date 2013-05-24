@@ -18,6 +18,7 @@
 <li><a href="http://www.mediamath.com/" target="_new"><img src="[% make_uri('img/sponsors/MediaMath_200.png') %]" alt="MediaMath" title="MediaMath"></a></li>
 <li><a href="http://www.shutterstock.com/jobs.mhtml" target="_new"><img src="[% make_uri('img/sponsors/SS_Logo_200.png') %]" alt="Shutterstock" title="Shutterstock"></a></li>
 <li><a href="http://bluehost.com/boss" target="_new"><img src="[% make_uri('img/sponsors/bluehost.com_200.png') %]" alt="BlueHost" title="BlueHost"></a></li>
+<li><a href="http://booking.com/" target="_new"><img src="[% make_uri('img/sponsors/bookingcom_logo_200.png') %]" alt="Booking.com" title="Booking.com"></a></li>
 </ul>
 
 <h3>Silver Sponsors</h3>
@@ -27,6 +28,7 @@
 <li><a href="http://perl6.com/" target="_new"><img src="[% make_uri('img/sponsors/perl6_com_200.png') %]" alt="perl6.com" title="perl6.com"></a></li>
 <li><a href="http://www.hostgator.com/jobs/" target="_new"><img src="[% make_uri('img/sponsors/HostGator_200.png') %]" alt="Host Gator" title="Host Gator"></a></li>
 <li><a href="http://www.dreamwidth.org/" target="_new"><img src="[% make_uri('img/sponsors/dw_logo_200.png') %]" alt="Dreamwidth Studios" title="Dreamwidth Studios"></a></li>
+<li><a href="http://www.qsii.com/" target="_new"><img src="[% make_uri('img/sponsors/nextgen_logo_200.png') %]" alt="NextGen Healthcare" title="NextGen Healthcare"></a></li>
 </ul>
 
 <h3>Bronze Sponsors</h3>
@@ -35,6 +37,7 @@
 <li><a href="http://pragprog.com/" target="_new"><img src="[% make_uri('img/sponsors/Pragmatic_200.png') %]" alt="PRAGMATIC" title="PRAGMATIC"></a></li>
 <li><a href="http://bestpractical.com/" target="_new"><img src="[% make_uri('img/sponsors/BPS_Logo_200.png') %]" alt="Best Practical" title="Best Practical"></a></li>
 <li><a href="http://www.erubbermaid.com/" target="_new"><img src="[% make_uri('img/sponsors/rubbermaid.jpg') %]" alt="eRubbermaid.com" title="eRubbermaid.com"></a></li>
+<li><a href="http://freeside.biz/freeside/" target="_new"><img src="[% make_uri('img/sponsors/freeside_logo_200.png') %]" alt="Freeside Internet Services" title="Freeside Internet Services"></a></li>
 </ul>
 
 <h3>Sites which promote YAPC</h3>

@@ -122,25 +122,6 @@
 
 	<div style="clear: both;"> </div>
 
-	<div id="columns">
-		<div id="column1" class="hidden">
-			<h3>Other Conferences</h3>
-			<ul>
-			</ul>
-		</div>
-		
-		<div id="column2" class="hidden">
-			<h3>Subscribe</h3>
-			<p><script type="text/javascript"  src="http://pcas.szabgab.com/ads/direct_link.js"></script></p>
-		</div>
-
-		<div id="column3" class="hidden">
-			<h3>Friends</h3>
-		</div>
-
-		<div style="clear: both;"> </div>
-	</div>
-
 	<div id="footer">Copyright 2013 The Perl Foundation</div>
 
 </div>

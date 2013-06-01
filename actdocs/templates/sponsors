@@ -19,6 +19,7 @@
 <li><a href="http://www.shutterstock.com/jobs.mhtml" target="_new"><img src="[% make_uri('img/sponsors/SS_Logo_200.png') %]" alt="Shutterstock" title="Shutterstock"></a></li>
 <li><a href="http://bluehost.com/boss" target="_new"><img src="[% make_uri('img/sponsors/bluehost.com_200.png') %]" alt="BlueHost" title="BlueHost"></a></li>
 <li><a href="http://booking.com/" target="_new"><img src="[% make_uri('img/sponsors/bookingcom_logo_200.png') %]" alt="Booking.com" title="Booking.com"></a></li>
+<li><a href="http://www.iinteractive.com/" target="_new"><img src="[% make_uri('img/sponsors/ii-logo-200-wide.png') %]" alt="Infinity Interactive" title="Infinity Interactive"></a></li>
 </ul>
 
 <h3>Silver Sponsors</h3>

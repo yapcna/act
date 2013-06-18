@@ -1,0 +1,48 @@
+
+<h3>Diamond Sponsors</h3>
+<ul id="sponsors">
+<li><a href="http://job.listings.cpanel.net" target="_new"><img src="[% make_uri('img/sponsors/09-cpanel_company_logo.jpg') %]" alt="cPanel" title="cPanel"></a></li>
+<li><a href="https://www.whitehatsec.com" target="_new"><img src="[% make_uri('img/sponsors/whitehatsec.gif') %]" alt="WhiteHat Security" title="WhiteHat Security"></a></li>
+<li><a href="https://www.liquidweb.com/" target="_new"><img src="[% make_uri('img/sponsors/liquidweb-logo-yapc.png') %]" alt="Liquid Web" title="Liquid Web"></a></li>
+</ul>
+
+<h3>Platinum Sponsors</h3>
+<ul id="sponsors">
+<li><a href="http://www.linode.com/" target="_new"><img src="[% make_uri('img/sponsors/Linode_200.png') %]" alt="Linode" title="Linode"></a></li>
+<li><a href="http://www.athenahealth.com/careers/" target="_new"><img src="[% make_uri('img/sponsors/athenahealth_200.png') %]" alt="AthenaHealth" title="AthenaHealth"></a></li>
+</ul>
+
+<h3>Gold Sponsors</h3>
+<ul id="sponsors">
+<li><a href="http://www.thegamecrafter.com/" target="_new"><img src="[% make_uri('img/sponsors/GameCrafter_200.png') %]" alt="Game Crafter" title="Game Crafter"></a></li>
+<li><a href="http://www.mediamath.com/" target="_new"><img src="[% make_uri('img/sponsors/MediaMath_200.png') %]" alt="MediaMath" title="MediaMath"></a></li>
+<li><a href="http://www.shutterstock.com/jobs.mhtml" target="_new"><img src="[% make_uri('img/sponsors/SS_Logo_200.png') %]" alt="Shutterstock" title="Shutterstock"></a></li>
+<li><a href="http://bluehost.com/boss" target="_new"><img src="[% make_uri('img/sponsors/bluehost.com_200.png') %]" alt="BlueHost" title="BlueHost"></a></li>
+<li><a href="http://booking.com/" target="_new"><img src="[% make_uri('img/sponsors/bookingcom_logo_200.png') %]" alt="Booking.com" title="Booking.com"></a></li>
+<li><a href="http://www.iinteractive.com/" target="_new"><img src="[% make_uri('img/sponsors/ii-logo-200-wide.png') %]" alt="Infinity Interactive" title="Infinity Interactive"></a></li>
+</ul>
+
+<h3>Silver Sponsors</h3>
+<ul id="sponsors">
+<li><a href="http://www.rimmkaufman.com/" target="_new"><img src="[% make_uri('img/sponsors/RKG-logo-200.jpg') %]" alt="RKG" title="RKG"></a></li>
+<li><a href="http://www.grantstreet.com/" target="_new"><img src="[% make_uri('img/sponsors/GrantStreetGroup.png') %]" alt="GrantStreet" title="GrantStreet"></a></li>
+<li><a href="http://perl6.com/" target="_new"><img src="[% make_uri('img/sponsors/perl6_com_200.png') %]" alt="perl6.com" title="perl6.com"></a></li>
+<li><a href="http://www.hostgator.com/jobs/" target="_new"><img src="[% make_uri('img/sponsors/HostGator_200.png') %]" alt="Host Gator" title="Host Gator"></a></li>
+<li><a href="http://www.dreamwidth.org/" target="_new"><img src="[% make_uri('img/sponsors/dw_logo_200.png') %]" alt="Dreamwidth Studios" title="Dreamwidth Studios"></a></li>
+<li><a href="http://www.qsii.com/" target="_new"><img src="[% make_uri('img/sponsors/nextgen_logo_200.png') %]" alt="NextGen Healthcare" title="NextGen Healthcare"></a></li>
+<li><a href="http://www.dyn.com/" target="_new"><img src="[% make_uri('img/sponsors/dyn_logo_200.png') %]" alt="Dyn" title="Dyn"></a></li>
+</ul>
+
+<h3>Bronze Sponsors</h3>
+<ul id="sponsors">
+<li><a href="http://www.efjohnsontechnologies.com/" target="_new"><img src="[% make_uri('img/sponsors/efj_200.png') %]" alt="EFJ" title="EFJ"></a></li>
+<li><a href="http://pragprog.com/" target="_new"><img src="[% make_uri('img/sponsors/Pragmatic_200.png') %]" alt="PRAGMATIC" title="PRAGMATIC"></a></li>
+<li><a href="http://bestpractical.com/" target="_new"><img src="[% make_uri('img/sponsors/BPS_Logo_200.png') %]" alt="Best Practical" title="Best Practical"></a></li>
+<li><a href="http://www.erubbermaid.com/" target="_new"><img src="[% make_uri('img/sponsors/rubbermaid.jpg') %]" alt="eRubbermaid.com" title="eRubbermaid.com"></a></li>
+<li><a href="http://freeside.biz/freeside/" target="_new"><img src="[% make_uri('img/sponsors/freeside_logo_200.png') %]" alt="Freeside Internet Services" title="Freeside Internet Services"></a></li>
+</ul>
+
+<h3>Sites which promote YAPC</h3>
+The <a href="http://perlweekly.com/">Perl Weekly newsletter</a> and the
+<a href="http://perlmaven.com/">Perl Maven</a> site help us spread the news
+about YAPC::NA.

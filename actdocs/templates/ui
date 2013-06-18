@@ -113,7 +113,6 @@
 		<ul>
 			[% PROCESS menu %]
 		</ul>
-		[% PROCESS sponsors %]
 	</div>
 
 	<div style="clear: both;"> </div>

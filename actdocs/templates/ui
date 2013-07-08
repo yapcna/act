@@ -1,124 +1,71 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if lt IE 9]><script src="dist/html5shiv.js"></script><![endif]-->
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="/yn2014/css/940.css" />
-<link rel="stylesheet" type="text/css" href="/css/act-base.css" />
-<link rel="stylesheet" type="text/css" href="/css/schedule.css" />
-<title>YAPC::NA 2014 - June 21-27, Orlndo, FL</title>
-
-<!-- JavaScript sugar -->
-<script type="text/javascript" src="/js/jquery.js"></script>
-<script type="text/javascript" src="/js/act.js"></script>
-<script language="javascript" type="text/javascript" src="/yn2014/js/tumblr.js"></script>
-
- <link rel="alternate" type="application/atom+xml" title="[% global.conference.name %]"
-        href="[% global.request.base_url %][% make_uri_info( 'atom', global.request.language ) %].xml" />
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>[% global.conference.name %]</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,600,300|Arvo' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/yn2014/css/reset.css">
+    <link rel="stylesheet" href="/yn2014/css/style.css">
+    <link href="/yn2014/img/favicon.ico" rel="shortcut icon" />
+    <script src="/yn2014/js/modernizr-2.6.2.min.js"></script>
+    <script src="/yn2014/js/jquery-1.9.1.min.js"></script>
+    <script src="/yn2014/js/jquery.sticky.js"></script>
+    <script src="/yn2014/js/plugins.js"></script>
+    <script src="/yn2014/js/main.js"></script>
 </head>
+
 <body>
-<div id="wrap">
-	<div id="header">
-		<a href="https://secure.donor.com/pf012/give" class="donatebtn"><h2>Donate Now!</h2><p>Help Create A Better Perl</p></a>
-		<img src="/yn2014/img/texas.png" alt="YAPC Logo">
-	</div>
-	
-	<div style="background-color: #336; height: 47px;">
-	  <ul class="nav">
-	    <li><a href="/yn2014/">Home</a>
-	      <ul class="subs">
-	        <li><a href="/yn2014/yapc-history.html">YAPC History</a></li>
-	        <li><a href="/yn2014/code-of-conduct.html">Code of Conduct</a></li>
-	        <li><a href="/yn2014/volunteer.html">Volunteer</a></li>
-	        <li><a href="/yn2014/wiki">Wiki Home</a></li>
-            <li><a href="http://news.perlfoundation.org/2014/02/yapcna2014-call-for-location.html">Bid for YAPC::NA 2014</a></li>
-            <li><a href="http://news.perlfoundation.org">The Perl Foundation</a></li>
-            <li><a href="http://www.perl.org">The Perl Homepage</a></li>
-	      </ul>
-        </li>
-	    <li><a href="http://blog.yapcna.org">Blog</a></li>
-	    <li><a href="/yn2014/schedule">Schedule</a>
-	      <ul class="subs">
-	        <li><a href="/yn2014/schedule">Today&#39;s Schedule</a></li>
-	        <li><a href="/yn2014/wiki?node=LunchEateries">Lunch Eateries</a></li>
-	        <li><a href="/yn2014/training.html">Master Classes</a></li>
-	        <li><a href="/yn2014/wiki?node=Hackathons">Hackathons</a></li>
-	        <li><a href="/yn2014/wiki?node=ArrivalDinner">Arrival Dinner</a></li>
-	        <li><a href="/yn2014/newtalk">New Lightning Talk</a></li>
-	        <li><a href="/yn2014/wiki?node=SuggestedBOFs">Organize BOFs</a></li>
-	        <li><a href="/yn2014/wiki?node=GameNight">Game Night</a></li>
-	      </ul>
-	    </li>
-	    <li><a href="#">Conference</a>
-	      <ul class="subs">
-	        <li><a href="/yn2014/register">Account and Signup</a></li>
-	        <li><a href="/yn2014/purchase">Purchase Ticket</a></li>
-	        <li><a href="/yn2014/talks">Talks By Track</a></li>
-	        <li><a href="/yn2014/favtalks">Talks By # Starred</a></li>
-	        <li class="hidden"><a href="http://ideas.yapcna.org" target="_new">Submit Ideas</a></li>
-	        <li><a href="/yn2014/stats">Who&#39;s Coming?</a></li>
-	        <li><a href="/yn2014/wiki?node=ForSpeakers">For Speakers</a></li>
-	        <li><a href="/yn2014/wiki?node=PhotosBlogs">Your Photos &amp; Blogs</a></li>
-	        <li><a href="/yn2014/wiki?node=TalkVideos">Talk Videos</a></li>
-	      </ul>
-	    </li>
-	    <li><a href="#">Venue &amp; Travel</a>
-	      <ul class="subs">
-	        <li><a href="/yn2014/wiki?node=LBJAuditorium">LBJ Auditorium</a></li>
-	        <li><a href="/yn2014/wiki?node=Thompson">Thompson (TCC)</a></li>
-	        <li><a href="/yn2014/wiki?node=CampusShuttle">Campus Shuttle</a></li>
-	        <li><a href="/yn2014/travel.html">Travel</a></li>
-	        <li><a href="/yn2014/parking.html">Parking</a></li>
-	        <li><a href="/yn2014/lodging.html">Lodging</a></li>
-	        <li><a href="/yn2014/wiki?node=ArrivalCheckIn">Arrival &amp; Check-In</a></li>
-	        <li><a href="/yn2014/map.html">Austin Map</a></li>
-	        <li><a href="/yn2014/wiki?node=ThingsToDo">Around Austin</a></li>
-	      </ul>
-	    </li>
-	    <li><a href="/yn2014/sponsorship.html">Sponsorship</a>
-	      <ul class="subs">
-	        <li><a href="/yn2014/sponsorship.html">Overview</a></li>
-	        <li><a href="/yn2014/levels-of-sponsorship.html">Levels of Sponsorship</a></li>
-	        <li><a href="/yn2014/become-a-sponsor.html">Become A Sponsor</a></li>
-	        <li><a href="/yn2014/our-sponsors.html">Our Sponsors</a></li>
-	      </ul>
-	    </li>
-	    <li><a href="/yn2014/job-fair.html">Job Fair</a></li>
-	    <li><a href="#">Social Connect</a>
-	      <ul class="subs">
-		<li class="hidden"><a href="/yn2014/photos.html">Photo Slide Show</a></li>
-		<li class="hidden"><a href="/yn2014/gallery.html">Photo Gallery</a></li>
-		<li><a href="https://www.facebook.com/yapcna">Facebook</a></li>
-		<li><a href="https://twitter.com/#!/yapcna">Twitter</a></li>
-		<li><a href="http://www.linkedin.com/groups/YAPC-NA-3982433">LinkedIN</a></li>
-		<li><a href="https://plus.google.com/102557746746870253896">Google Plus</a></li>
-		<li><a href="http://blog.yapcna.com/">Blog (tumblr)</a></li>
-		<li class="hidden"><a href="#">Disqus</a></li>
-		<li class="hidden"><a href="http://feedburner.google.com/fb/a/mailverify?uri=yapcna2014">Subscribe to News</a></li>
-	      </ul>
-	    </li>
-	    <li class="hidden"><a href="/yn2014/otherconf.html">Other Conferences</a></li>   
-	    <li class="hidden"><a href="/yn2014/jobs.html">Perl Jobs</a></li>
-	    <li class="hidden"><a href="/yn2014/events.html">Events</a></li>
-	  </ul>
-	</div>
+<div id="eduardo-miura"></div>
+<div id"page">
+   	<section class="full shadow-top" id="event">
+    		<div><!-- wrapper -->
 
-	<div style="clear:both"></div>
+		<div class="width6 align-right">
+	<figure id="logo-yapc">
+		<img src="img/logo-yapc.png" alt="YAPC::NA 2014" alt="YAPC::NA 2014">
+	</figure>
+        </div>
+<div class="width6">
+	<h1 class="align-right">YAPC::NA 2014</h1>
+	<h2 class="align-right">Yet Another Perl Conference 2014<br> June 23-25 2014, Orlando, FL </h2>
 
-	<div id="content">
-		[% content %]
-	</div>
+<br />
+<br />
+	<p> The next YAPC::NA will be held in sunny <a href="https://maps.google.com/maps/ms?msid=208330880442074395860.0004df4e335781a4526be&msa=0&ll=28.534163,-81.368523&spn=0.261504,0.322037&iwloc=0004e0a1ccd4a62c788a6" target="_blank">Orlando, FL</a>
+	    at The Double Tree Orlando Downtown. This Year's Theme is: <strong>***THEME HERE***</strong>
+	</p>
+</div>
+    		</div><!-- /wrapper -->
+    	</section><!-- /.full -->
+    	
+    	<header class="full" id="nav">
+	<div><!-- wrapper -->
+		<figure class="width4" id="logo-yapc-sticky">
+			<img src="img/logo-yapc-sticky.png" alt="YAPC::NA 2014" alt="YAPC::NA 2014">
+		</figure>
+<nav class="width6 float-right">
+     <a href="/yn2014/main"> ACT </a>
+     <a id="code-of-conduct-menu"> Code of Conduct </a>
+     <a id="location-menu"> Location  </a>
+     <a id="registration-menu"> Register </a>
+     <a id="patrocinadores-menu"> Volunteer </a>
+</nav>
+	</div><!-- /wrapper -->
+    	</header><!-- /.full -->    	
+<br />
+<br />
+<br />
 
-	<div id="sidebar">
-		<h3>Menu Navigation</h3>
-		<ul>
-			[% PROCESS menu %]
-		</ul>
-	</div>
-
-	<div style="clear: both;"> </div>
-
-	<div id="footer">Copyright 2014 The Perl Foundation</div>
-
+<div id="content">
+[% content %]
 </div>
 
-
+</body>
+</html>

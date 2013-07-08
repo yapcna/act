@@ -1,10 +1,10 @@
 body {
 	font-weight:300;
-	background:url(../images/noise.png) center center repeat #ffffff;
+	background:url(/yn2014/img/noise.png) center center repeat #ffffff;
 	color:#333333;
 }
 .body-bg {
-	background:url(../images/grid.png) center center repeat #ffffff !important;
+	background:url(/yn2014/img/grid.png) center center repeat #ffffff !important;
 }
 #body-bg {
 	position:fixed;
@@ -70,7 +70,7 @@ img {
 	width:100%;
 }
 hr {
-	background:url(../images/hr.png) center top no-repeat;
+	background:url(/yn2014/img/hr.png) center top no-repeat;
 	height:23px;
 }
 section {
@@ -118,7 +118,7 @@ section {
 	clear:both;
 }
 .shadow-top {
-	background:url(../images/shadow-top.png) center top repeat-x;
+	background:url(/yn2014/img/shadow-top.png) center top repeat-x;
 }
 .width1,
 .width2,
@@ -207,7 +207,7 @@ header,
 	z-index:99;
 }
 #event {
-	background: url(../images/noise.png) center center repeat #8080ff;
+	background: url(/yn2014/img/noise.png) center center repeat #8080ff;
 	margin-bottom: -3px;
 }
 #event h1,
@@ -243,7 +243,7 @@ header,
 	cursor:pointer;
 }
 #nav {
-	background:url(../images/nav-bg.png) center bottom repeat-x #8080ff;
+	background:url(/yn2014/img/nav-bg.png) center bottom repeat-x #8080ff;
 	margin-bottom:-3px;
 }
 nav {
@@ -259,14 +259,14 @@ nav a {
 nav a:hover,
 nav a:active,
 nav .active {
-	background:url(../images/nav-bg.png) center bottom repeat-x;
+	background:url(/yn2014/img/nav-bg.png) center bottom repeat-x;
 }
 figure {
 	display:inline-block;
 }
 /*Inserido por Leprevost 05-15-13
 * Para ajustar a posiÃ§Ã£o da bandeira'
-* efeito: aumntou a barra do menu abaixo.
+* efeito: aumntou a bar do menu abaixo.
 #bandeira-menu {
  	padding-top:23px;
 }
@@ -279,7 +279,7 @@ figure {
 }
 .programacao-datas .active,
 .bt-lilas:active {
-	background: url(../images/nav-bg.png) center bottom repeat-x #8080ff;
+	background: url(/yn2014/img/nav-bg.png) center bottom repeat-x #8080ff;
 }
 .programacao-datas .active {
 	height: 45px;
@@ -373,25 +373,25 @@ input[type="submit"] {
 textarea {
 	height: 100px;
 }
-.local-lugares {
+.local-places {
 	margin-bottom:20px !important;
 }
-.local-lugares > p {
+.local-places > p {
 	line-height:40px;
 	padding-left:10px;
 }
-.local-lugares .o-que-mais {
+.local-places .o-que-mais {
 	padding: 10px;
 	position: absolute;
 	top: 0;
 	height: 150px;
 	overflow-x: hidden;
 }
-.local-lugares figure {
+.local-places figure {
 	overflow:hidden;
 	height:169px;
 }
-.local-lugares .o-que-mais p {
+.local-places .o-que-mais p {
 	font-size: 12px;
 	line-height: 16px;
 }
@@ -402,44 +402,32 @@ textarea {
 	text-align:justify;
 	text-justify:inter-word;
 }
-.inscricoes-valores {
+.inscricoes-values {
 	margin-bottom:20px !important;
 }
-.inscricoes-valores > span {
+.inscricoes-values > span {
 	font-size: 30px;
 	margin: 50px 0;
 	display: block;
 }
-.inscricoes-valores span {
+.inscricoes-values span {
 	font-weight: 700;
 }
-.inscricoes-valores span span {
+.inscricoes-values span span {
 	font-size: 60px;
 }
-#patrocinadores figure {
-	margin:20px 0.5%;
-}
-#patrocinadores-barra {
-	padding: 0;
-	background: url(../images/noise.png) center center repeat #ffffff;
-	position:fixed;
-	bottom:0;
-}
-#patrocinadores-barra h5,
-#patrocinadores-barra a {
-	margin-top:30px;
-}
+
 iframe {
 	margin-bottom:40px !important;
 }
-#idiomas {
+#languages {
 position: fixed;
 z-index: 999;
 top: 20px;
 width: 50px;
 right: 20px;
 }
-#idiomas a {
+#languages a {
 width: 20px;
 height: auto;
 display: inline-block;
@@ -461,18 +449,18 @@ display: inline-block;
 		height:48px;
 		line-height:48px;
 	}
-	.local-lugares {
+	.local-places {
 		width:48% !important;
 		margin:0 1%;
 	}
-	.local-lugares figure {
+	.local-places figure {
 		text-align: center;
 		width: 100%;
 	}
-	.inscricoes-valores > span {
+	.inscricoes-values > span {
 		font-size:24px;
 	}
-	.inscricoes-valores span span {
+	.inscricoes-values span span {
 		font-size:48px;
 	}
 	#quer-palestrar-form {
@@ -481,7 +469,7 @@ display: inline-block;
 	#bandeira-menu img {
 		margin-top: 19px;
 	}
-	#idiomas {
+	#languages {
 		top:15px;
 		right:5px;
 	}
@@ -520,7 +508,7 @@ display: inline-block;
 	section {
 		padding: 70px 0 20px;
 	}
-	.local-lugares p {
+	.local-places p {
 		font-size:12px;
 	}
 	.programacao-tabela .header {
@@ -569,7 +557,7 @@ display: inline-block;
 		width: 96% !important;
 		text-align: center;
 	}
-	.local-lugares figure img {
+	.local-places figure img {
 		height:100%;
 		width:auto;
 	}
@@ -588,27 +576,21 @@ display: inline-block;
 		width: 98% !important;
 		margin: 0;
 	}
-	#patrocinadores-barra h5,
-	#patrocinadores-barra a {
-		margin-top: 10px;
-		width: 56.333%;
-		float:left;
-	}
-}
+
 @media (max-width:320px) {
-	.local-lugares {
+	.local-places {
 		float: none;
 		width: 96% !important;
 	}
 	.bt-lilas {
 		font-size: 17px;
 	}
-	.inscricoes-valores {
+	.inscricoes-values {
 		float: none;
 		width: 94% !important;
 		padding: 5px 0;
 	}
-	.inscricoes-valores > span {
+	.inscricoes-values > span {
 		margin: 0;
 	}
 	nav a {
@@ -621,16 +603,13 @@ display: inline-block;
 		height: 28px;
 		line-height: 28px;
 	}
-	#patrocinadores-barra {
-		display:none !important;
-	}
 	#quer-palestrar-form {
 		width: 100% !important;
 	}
 	body {
 		background:#ffffff;
 	}
-	#idiomas {
+	#languages {
 		top:20px;
 	}
 }

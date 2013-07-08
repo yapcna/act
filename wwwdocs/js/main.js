@@ -2,47 +2,10 @@ jQuery(document).ready(function($) {
 	$('#body-bg').click(function(){
 		$('body').toggleClass('body-bg');
 	});
-	$('[class*="largura"]').find('[class*="largura"]').addClass('largura-filho');
-	$('.largura-filho.float-right').removeClass('largura-filho').addClass('largura-filho-right');
-	$('.largura-filho:last-child, .largura-filho-right:last-child, .local-lugares:nth-child(3n)').addClass('margin-none');
-	$('.o-que-mais').addClass('margin-none');
-	$('.programacao-tabela ul:last-child').addClass('border-none');
-	
-	//o-que-mais dos lugares pra visitar
-	$('.local-lugares .bt-mais').html('+');
-	$('.local-lugares .o-que-mais').hide();
-	$('.local-lugares .bt-mais').click(function(){
-		$('.local-lugares .o-que-mais').slideUp(function(){
-			$(this).next().children('.local-lugares .bt-mais').html('+');
-		});
-		$(this).parent().prev('.local-lugares .o-que-mais:not(:visible)').slideDown(function(){
-			$(this).next().children('.local-lugares .bt-mais').html('–');
-		});
-	});
-	
-	//tabs da programação
-	$('.programacao-tabela div:not(:first)').hide();
-	$('.programacao-datas a:last-child').addClass('active');
-	$('.programacao-datas a').click(function(){
-		var data = $(this).attr('id');
-		$('.programacao-datas a').removeClass('active');
-		$(this).addClass('active');
-		$('.programacao-tabela div').hide();
-		$('.programacao-tabela .header').slideDown();
-		$('#'+data+'-content').slideDown();
-	});
-	
-	//accordion da programação
-	$('.o-que-mais a').html('+');
-	$('.o-que-mais').click(function(){
-		$('.o-que-mais-content').slideUp(function() {
-			$('.o-que-mais a').html('+');
-		});
-		$(this).next('.o-que-mais-content:not(:visible)').slideDown(function(){
-			$(this).prev('.o-que-mais').children('a').html('–');
-		});
-	});
-	
+	$('[class*="width"]').find('[class*="width"]').addClass('width-child');
+	$('.width-child.float-right').removeClass('width-child').addClass('width-child-right');
+	$('.width-child:last-child, .width-child-right:last-child, .local-places:nth-child(3n)').addClass('margin-none');
+
 	//form da programação
 	var botaoAbrir = $('#quer-palestrar');
 	var botaoFechar = $('#quer-fechar');
@@ -84,16 +47,6 @@ jQuery(document).ready(function($) {
 			$('nav a').removeClass('active');
 		}
 	})
-	
-	//patrocinadores-barra
-	var scrollPatrocinadores = $('#patrocinadores').offset().top;
-	$(window).scroll(function(){
-		if(($(this).scrollTop())<=scrollPatrocinadores){
-			$('#patrocinadores-barra').fadeIn();
-		} else {
-			$('#patrocinadores-barra').fadeOut();
-		}
-	});
 	
 	//logo-yapc-sticky
 	var logoYapcSticky = $('#logo-yapc-sticky');

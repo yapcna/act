@@ -11,23 +11,18 @@ of programmers from around the world, including luminaries such as Larry
 Wall, Allison Randal, and Damian Conway.</p>
 
 <ul>
-    <li><a href="venue.html">Crowne Plaza Resort, Asheville NC</a></li>
-    <li>June 27&ndash;29, 2011</li>
-    <li>Training June 30 - July 1</li>
+    <li><a href="venue.html">DoubleTree by Hilton Orlando Downtown Orlando, FL</a></li>
+    <li>June 23&ndash;25, 2014</li>
+    <li>Early Training &amp; Hackathon June 21 &ndash; June 22</li>
+    <li>Early Training &amp; Hackathon June 26 &ndash; June 27</li>
     <li><a href="venue.html">Accomodations</a></li>
     <li><a href="talks">Talks</a></li>
-    <li>Late Registraion Price: $150 USD</li>
+    <li>Early Bird Registraion Price: $150 USD</li>
 </ul>
 
-<p class="sweet-justice"> Watch this space for updates, or check the <a href="[%
-global.request.base_url %][% make_uri_info( 'atom',
-global.request.language ) %].xml">feed</a>. </p>
+<p class="sweet-justice"> Watch this space for updates, or check the <a href="[% global.request.base_url %][% make_uri_info( 'atom', global.request.language ) %].xml">feed</a>. </p>
 
-[% news = global.news(5);
-   IF news.size > 2;
-     more = news.pop;
-   END;
- %]
+[% news = global.news(5); IF news.size > 2; more = news.pop; END; %]
 
 [% IF news.size %]
 <h2>Latest News</h2>

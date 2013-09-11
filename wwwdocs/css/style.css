@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Gudea:400,400italic|Cinzel:700&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Gudea:400,400italic|Ubuntu:400&subset=latin,latin-ext);
 
 @media screen and (max-width: 319px) { .unit{float: none !important;
      width: auto !important;
@@ -51,7 +51,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: #071D26;
-    width: 1024px;
+    max-width: 1200px;
     overflow-y: auto;
     overflow-x: visible;    
     min-height:200%;
@@ -62,18 +62,20 @@ body {
     -webkit-box-shadow: rgba(51, 51, 51, 0.9) 0px 0px 10px;
     -moz-box-shadow: rgba(51, 51, 51, 0.9) 0px 0px 10px;
 }
+
 .masthead {
-    font-family: "Cinzel", serif;
+    font-family: "Ubuntu", serif;
     color: #395059;
     background-image: url('http://orlando.pm.org/opm_banner.png');
     background-repeat: no-repeat;
-    width: 1024px;
+    width: 1200px;
     height: 307px;
     display: table-cell;
     vertical-align: bottom;    
     border-bottom: 1px solid #FFD37F;
     padding-left: 15px;
 }
+
 h1 { 
     font-size: 40pt;
     padding: 0px;
@@ -88,7 +90,7 @@ h1 a, h1 a:visited {
 .body { clear: both;}
 
 h2 {
-    font-family: "Cinzel",sans-serif;
+    font-family: "Ubuntu",sans-serif;
     font-size: 200%;
     font-weight: 600;
     margin-bottom: 0.5ex;
@@ -96,16 +98,16 @@ h2 {
 
 h3 {
     font-size: 150%;
-    font-family: "Cinzel",sans-serif;
+    font-family: "Ubuntu",sans-serif;
 }
 
 h4 {
     font-size: 125%;
-    font-family: "Cinzel",sans-serif;
+    font-family: "Ubuntu",sans-serif;
 }
 
 
-h5, h6 { font-family: "Cinzel",sans-serif; }
+h5, h6 { font-family: "Ubuntu",sans-serif; }
 p {
     font-weight: 100;
     line-height: 18pt;

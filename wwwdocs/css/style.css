@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Gudea:400,400italic|Ubuntu:400&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400|Merriweather:300,300italic);
 
 @media screen and (max-width: 319px) { .unit{float: none !important;
      width: auto !important;
@@ -29,7 +29,7 @@
 
 /* ***** main styles ******** */
 html {
-    font-family: "Gudea", sans-serif;
+    font-family: "Merriweather", serif;
     background-color: #395059;
     color: #F2F2F2;
     overflow: auto;
@@ -51,7 +51,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: #071D26;
-    max-width: 1200px;
+    max-width: 1024px;
     overflow-y: auto;
     overflow-x: visible;    
     min-height:200%;
@@ -64,11 +64,11 @@ body {
 }
 
 .masthead {
-    font-family: "Ubuntu", serif;
+    font-family: "Ubuntu", sans-serif;
     color: #395059;
     background-image: url('http://orlando.pm.org/opm_banner.png');
     background-repeat: no-repeat;
-    width: 1200px;
+    width: 1024px;
     height: 307px;
     display: table-cell;
     vertical-align: bottom;    

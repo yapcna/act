@@ -1,0 +1,280 @@
+[% WRAPPER ui title = loc("Submit/Edit a talk") %]
+
+<center>
+
+[% PROCESS error
+   msgs = {
+     ERR_USER           => loc("You must specify a user"),
+     ERR_TITLE          => loc("You must enter a title for the talk"),
+     ERR_ABSTRACT       => loc("You must provide an abstract"),
+     ERR_DATE           => loc("The supplied date is invalid"),
+     ERR_TIME           => loc("The supplied time is invalid"),
+     ERR_DATERANGE      => loc("The date/time is out of range"),
+     ERR_DURATION       => loc("Please choose a duration"),
+     ERR_URL_ABSTRACT   => loc("Abstract URL is not a valid URL"),
+     ERR_URL_TALK       => loc("Talk URL is not a valid URL"),
+     ERR_ROOM           => loc("Incorrect room submitted"),
+     ERR_LEVEL          => loc("Please choose a target audience"),
+     ERR_LANG           => loc("Incorrect language"),
+  }
+%]
+
+<style type="text/css">
+    .warn {
+        margin: 5px;
+        border: 1px solid #C5B488;
+        background-color:#EBA470;
+        display: block;
+    }
+    .goaway {
+        display: none;
+    }
+</style>
+<form method="POST" action="[% global.request.r.uri %]" id="form">
+
+[% IF return_url %]
+<input type="hidden" name="return_url" value="[% return_url %]" />
+[% END %]
+
+[% IF talk_id %]
+<input type="hidden" name="talk_id" value="[% talk_id %]" />
+<p>
+ {{View}}
+ <a href="[% make_uri_info('talk', talk_id) %]" >[% title %]</a>
+</p><p>
+<input type="checkbox" name="delete" />
+{{Delete this talk}}
+</p>
+[% END %]
+<table border="1" cellpadding="10" cellspacing="0"><tr><td>
+<table border="0" cellpadding="0" cellspacing="10">
+[% IF global.request.user.is_talks_admin %]
+<tr>
+  <td align="right">{{User}}</td>
+  <td>&nbsp;</td>
+  <td>
+    <select name="user_id">
+    [% uid = user_id ? user_id : global.request.user.user_id %]
+    [% FOREACH u=users %]
+      <option value="[% u.user_id %]"[% ' selected="selected"' IF u.user_id == uid %]>
+        [% u.first_name %] [% u.last_name %]
+      </option>
+    [% END %]
+    </select>
+  </td>
+</tr>
+<tr>
+  <td align="right">{{Date}}</td>
+  <td>&nbsp;</td>
+  <td>
+   <select name="date">
+     <option value=""[% ' selected="selected"' UNLESS datetime %] />
+   [% FOREACH d=dates %]
+     <option value="[% d.ymd %]"[% ' selected="selected"' IF datetime.ymd == d.ymd %]>[% d.ymd %]</option>
+   [% END %]
+    </select>
+   {{Time}}
+    <input type="text" name="time" value="[% datetime.strftime('%H:%M') %]" size="5" maxlength="5" />
+   {{Room}}
+    <select name="room">
+     <option value=""[% ' selected="selected"' UNLESS room %] />
+    [% FOREACH r = rooms.keys.sort %]
+     <option value="[% r %]"[% ' selected="selected"' IF room == r %]>[% rooms.$r %]</option>
+    [% END %]
+    </select>
+   </td>
+</tr>
+[% END %]
+<tr>
+  <td align="right">{{Title}}</td>
+  <td>&nbsp;</td>
+  <td>
+    <input type="text" name="title" value="[% title %]" size="51" maxlength="100" />
+  </td>
+</tr>
+[% IF tracks.size != 0 %]
+  [% IF global.request.user.is_talks_admin %]
+<tr>
+  <td align="right" valign="top">
+  {{Track}}</td>
+  <td>&nbsp;</td>
+  <td>
+   <select name="track_id">
+     <option value=""[% ' selected="selected"' UNLESS track_id %] />
+   [% FOREACH t=tracks %]
+     <option value="[% t.track_id %]"[% ' selected="selected"' IF t.track_id == track_id %]>[% t.title %]</option>
+   [% END %]
+   </select>
+  </td>
+</tr>
+  [% ELSE %]
+   <input type="hidden" name="track_id" value="[% track_id %]" />
+  [% END %]
+[% END %]
+<tr>
+ <td align="right" valign="top">
+ {{Tags}}</td>
+  <td>&nbsp;</td>
+  <td>
+    <input type="text" name="tags" value="[% tags %]" size="51" maxlength="100" />
+  </td>
+</tr>
+[% IF global.config.talks_languages %]
+<tr>
+  <td align="right" valign="top">
+  {{Language}}</td>
+  <td>&nbsp;</td>
+  <td><select name="lang" size="1">
+        <option value=""[% ' selected="selected"' UNLESS lang %] />
+      [% FOREACH lg = global.config.talks_languages.keys.sort %]
+        <option value="[% lg %]"[% ' selected="selected"' IF lang==lg %]>[% global.config.talks_languages.$lg %]</option>
+      [% END %]
+  </select></td>
+</tr>
+[% END %]
+<tr>
+  <td align="right" valign="top">
+  {{Abstract}}<br />{{(plain text)}}</td>
+  <td>&nbsp;</td>
+  <td>
+    <textarea name="abstract" cols="50" rows="10">[% abstract | form_unescape %]</textarea>
+  </td>
+</tr>
+<tr>
+  <td align="right">{{Abstract URL}}</td>
+  <td>&nbsp;</td>
+  <td>
+    <input type="text" name="url_abstract" value="[% url_abstract %]" size="51" maxlength="256" />
+  </td>
+</tr>
+<tr>
+  <td align="right">{{Talk URL}}</td>
+  <td>&nbsp;</td>
+  <td>
+    <input type="text" name="url_talk" value="[% url_talk %]" size="51" maxlength="256" />
+  </td>
+</tr>
+<tr>
+  <td align="right" valign="top">{{Duration}}</td>
+  <td>&nbsp;</td>
+  <td>
+  [% IF global.request.user.is_talks_admin %]
+    [% loc("Standard durations for <confname> are:", global.conference.name) %]
+    <b>[% global.config.talks_durations.keys.nsort.join('</b>, <b>') %]</b> {{minutes}}
+    <br />
+    <input name="duration" value="[% duration == 'lightning' ? '' : duration %]" size="3" />
+    <input type="checkbox" name="is_lightning"[% ' checked' IF duration=='lightning' %] />
+    {{Lightning talk}}
+  [% ELSE %]
+    [% IF talk_id %]
+      [% IF duration == 'lightning' %]
+        {{Lightning talk}}
+      [% ELSE %]
+        [% duration %] {{minutes}}
+      [% END %]
+    [% ELSE %]
+      <select name="duration">
+       <option value=""[% ' selected="selected"' UNLESS duration %] />
+       <option value="lightning"[% ' selected="selected"' IF lightning %]>
+          {{Lightning talk}}
+       </option>
+       [% FOREACH d = global.config.talks_durations.keys.nsort %]
+       <option value="[% d %]"[% ' selected="selected"' IF d == duration %]>[% d %] {{minutes}}</option>
+       [% END %]
+       {{If the proposed durations do not quite fit your talk, please}}
+     [% END %]
+   [% END %]
+    </select>
+  </td>
+</tr>
+[% IF global.config.talks_levels %]
+<tr>
+  <td align="right" valign="top">{{Target audience}}</td>
+  <td>&nbsp;</td>
+  <td><select name="level">
+       [% FOREACH levelname = global.config.talks_levels_names %]
+         <option value="[% loop.count %]"[% ' selected="selected"' IF level == loop.count %]>[% levelname %]</option>
+       [% END %]
+  </td>
+</tr>
+[% END %]
+<tr>
+  <td align="right" valign="top">{{Comments}}</td>
+  <td>&nbsp;</td>
+  <td>
+    {{The comment field is used for communicating information about}}<br />
+    <textarea name="comment" cols="50" rows="3" id="comment">[% comment | form_unescape %]</textarea>
+  </td>
+</tr>
+<tr>
+  <td align="right" valign="top">{{Status}}</td>
+  <td>&nbsp;</td>
+  <td>
+    [% IF global.request.user.is_talks_admin %]
+    <input type="checkbox" name="accepted"[% ' checked' IF accepted %] />
+    {{accepted}}<br />
+    <input type="checkbox" name="confirmed"[% ' checked' IF confirmed %] />
+    {{confirmed}}<br />
+    [% ELSE %]
+      [% IF accepted %]
+        {{Accepted}}<br />
+        <input type="checkbox" name="confirmed"[% ' checked' IF confirmed %] />
+        {{confirmed}}<br />
+      [% ELSE %]
+        {{Pending}}
+      [% END %]
+    [% END %]
+   </td>
+</tr>
+[% IF !talk_id %]
+<tr>
+   <td colspan="3" align="right">
+        <input type="checkbox" id="vidauth" style="vertical-align: middle" /> <label for="agree" style="vertical-align: middle">By checking this box you are giving your consent to the possible inclusion of your likeness in photos, videos and electronic recordings for use by YAPC::NA in various media forms, and you release YAPC::NA from any claims or liabilities if your likeness is used.</label>
+   </td>
+</tr>
+[% END %]
+<tr>
+   <td colspan="3" align="right">
+      [% IF !talk_id %]<div class="warn" id="warning">Talks will not be accepted if they can not be recorded.</div>[% END %]
+      <input type="submit" name="submit" id="submit" value="{{Submit this talk}}" [% IF !talk_id %]disabled="disabled"[% END %] />
+   </td>
+</tr>
+</table>
+</td></tr></table>
+
+</form>
+</center>
+
+[% IF !talk_id %]
+<script type="text/javascript">
+    window.onload = function() {
+        var vidauth = document.getElementById("vidauth");
+        var submit = document.getElementById("submit");
+        var warning = document.getElementById("warning");
+
+        // Setup the click handler.
+        vidauth.onclick = function() {
+            if(vidauth.checked) {
+                // We can proceed.
+                submit.disabled = false;
+                warning.className = "goaway";
+            } else {
+                // No way.
+                submit.disabled = true;
+                warning.className = "warn";
+            }
+        }
+
+
+        var form = document.getElementById("form");
+        var comment = document.getElementById("comment");
+
+        form.onsubmit = function() {
+            comment.value = comment.value + "\n" + (vidauth.checked ? "****Consented to be recorded.****" : "****Did not consent to be recorded.****");
+        }
+    };
+</script>
+[% END %]
+
+
+[% END %]

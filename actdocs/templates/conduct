@@ -1,4 +1,4 @@
-<h2 id="standards_of_conduct">Standards of Conduct</h2>
+<h2 style="margin-bottom: 15px" id="standards_of_conduct">Standards of Conduct</h2>
 
 <h2>1. Purpose</h2>
 
@@ -63,7 +63,7 @@ please notify <a href="mailto:coc@yapcna.org">coc@yapcna.org</a> if possible or 
 
 <h2>Contact Information:</h2>
 
-<pre>
-YAPC::NA Director
-<a href="mailto:coc@yapcna.org">coc@yapcna.org</a>
-</pre>
+<div style="padding-left: 10px; padding-right: 10px">YAPC::NA Director</div>
+<div style="padding-left: 10px; padding-right: 10px">+1 512-655-9272</div>
+<div style="padding-left: 10px; padding-right: 10px"><a href="mailto:coc@yapcna.org">coc@yapcna.org</a></div>
+

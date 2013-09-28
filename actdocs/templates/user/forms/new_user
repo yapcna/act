@@ -1,0 +1,174 @@
+<form method="POST" action="[% global.request.r.uri %]">
+
+<table border="1" cellpadding="10" cellspacing="0"><tr><td>
+<table border="0" cellpadding="0" cellspacing="10">
+
+<tr>
+  <td align="right">{{Login}}</td>
+  <td>&nbsp;</td>
+  <td>
+    <input type="text" name="login" value="[% login %]" size="25" maxlength="60" />
+  </td>
+</tr>
+<tr>
+  <td align="right">{{First Name}}</td>
+  <td>&nbsp;</td>
+  <td>
+    <input type="text" name="first_name" value="[% first_name %]" size="25" maxlength="256" />
+  </td>
+</tr>
+<tr>
+  <td align="right">{{Last Name}}</td>
+  <td>&nbsp;</td>
+  <td>
+    <input type="text" name="last_name" value="[% last_name %]" size="25" maxlength="256" />
+  </td>
+</tr>
+<tr>
+  <td align="right">{{Email}}</td>
+  <td>&nbsp;</td>
+  <td>
+    <input type="text" name="email" value="[% email %]" size="25" maxlength="256" />
+  </td>
+    <input type="hidden" name="ignore_duplicates" value="[% ignore_duplicates %]" />
+</tr>
+<tr>
+  <td align="right">{{Country}}</td>
+  <td>&nbsp;</td>
+  <td>
+    <select name="country">
+      [% country = global.config.general_default_country UNLESS country %]
+      [% IF topten.size %]
+        [% FOREACH c = topten %]
+          <option value="[% c.iso %]"[% ' selected="selected"' IF country == c.iso %]>[% c.name %]</option>
+          [% IF country == c.iso; country = ''; END %]
+        [% END %]
+        <option value="" disabled="disabled">------------------------------</option>
+      [% END %]
+      [% FOREACH c = countries %]
+        <option value="[% c.iso %]"[% ' selected="selected"' IF country == c.iso %]>[% c.name %]</option>
+      [% END %]
+    </select>
+ </td>
+</tr>
+<tr>
+  <td align="right">{{T-Shirt}}</td>
+  <td>&nbsp;</td>
+  <td>
+   <select name="tshirt">
+    [% FOREACH t = ['', 'XS', 'XS (W)', 'S', 'S (W)', 'M', 'M (W)',
+                        'L', 'L (W)', 'XL', 'XL (W)', 'XLT', 'XXL',
+                        'XXL (W)', 'XXLT', 'XXXL', '4XL', '5XL', '6XL'  ] %]
+      <option value="[% t %]"[% ' selected="selected"' IF t == tshirt %]>[% t %]</option>
+   [% END %]
+  </select>
+ </td>
+</tr>
+<tr>
+    <td colspan="3" align="rigaht">
+        <div id="code" style="padding-top: 10px; height: 300px; width: 420px; overflow:scroll; overflow-y:scroll; overflow-x:none width: 300px; text-align:left">
+            <h1 style="margin-bottom: 15px">Code of Conduct</h1>
+
+            <h2>1. Purpose</h2>
+
+            <p>The Perl Foundation believes our community should be truly open for
+            everyone. As such, we are committed to providing a friendly, safe and
+            welcoming environment for all, regardless of gender, sexual
+            orientation, disability, ethnicity, religion, preferred operating
+            system, programming language, or text editor.</p>
+
+            <p>This code of conduct outlines our expectations for participant
+            behavior. We invite all sponsors, volunteers, speakers, attendees,
+            vendors, and other participants to help us realize a safe and positive
+            conference experience for everyone.</p>
+
+            <h2>2. Scope</h2>
+            <p>We expect all conference participants (sponsors, volunteers, speakers,
+            attendees, vendors, and other guests) to abide by this code of conduct
+            at all conference venues and conference-related social events.</p>
+
+            <h2>3. Expected Behavior</h2>
+            <p>
+                <ul>
+                    <li>Be considerate, respectful, and collaborative.</li>
+                    <li>Refrain from demeaning, discriminatory or harassing behavior and speech.</li>
+                    <li>Be mindful of your surroundings and of your fellow participants.</li>
+                    <li>Alert conference organizers if you notice a dangerous situation or someone in distress.</li>
+                </ul>
+            </p>
+
+            <h2>4. Unacceptable Behavior</h2>
+
+            <p>Unacceptable behaviors include: intimidating, harassing, abusive,
+            discriminatory, derogatory or demeaning conduct by any attendees. All
+            YAPC::NA venues may be shared with members of the public; please be
+            respectful to all patrons of these locations.</p>
+
+            <p>Harassment includes: offensive verbal comments related to gender,
+            sexual orientation, race, religion, disability; inappropriate use of
+            nudity and/or sexual images (including presentation slides);
+            deliberate intimidation, stalking or following; harassing photography
+            or recording; sustained disruption of talks or other events;
+            inappropriate physical contact, and unwelcome sexual attention.</p>
+
+            <h2>5. Consequences of Unacceptable Behavior</h2>
+
+            <p>Unacceptable behavior by other attendees, organizers, venue staff,
+            sponsors, or other patrons of YAPC::NA venues will not be tolerated.</p>
+
+            <p>Anyone asked to stop unacceptable behavior is expected to comply immediately.</p>
+
+            <p>If anyone engages in unacceptable behavior, the conference organizers
+            may take any action they deem appropriate including expulsion from the
+            conference without warning or refund.</p>
+
+            <h2>6. What to do if you witness or are subject to unacceptable behavior</h2>
+
+            <p>If you are subject to unacceptable behavior, notice that someone else
+            is being subject to unacceptable behavior, or have any other concerns,
+            please notify <a href="mailto:coc@yapcna.org">coc@yapcna.org</a> if possible or if impractical, Todd Rinaldo as soon as possible.</p>
+
+	    <h2>7. License and attribution</h2>
+	    <p>Creative Commons Attribution-ShareAlike <a href="http://creativecommons.org/licenses/by-sa/3.0/">http://creativecommons.org/licenses/by-sa/3.0/</a></p>
+            
+	    <h2>Contact Information:</h2>
+
+            <div style="padding-left: 10px; padding-right: 10px">YAPC::NA Director</div>
+            <div style="padding-left: 10px; padding-right: 10px">+1 512-655-9272</div>
+            <div style="padding-left: 10px; padding-right: 10px"><a href="mailto:coc@yapcna.org">coc@yapcna.org</a></div>
+        </div>
+        <a href="code-of-conduct.html" target="_blank">Link to this agreement.</a>
+    </td>
+</tr>
+<tr>
+   <td colspan="3" align="right">
+      <input type="checkbox" id="agree" style="vertical-align: middle" /> <label for="agree" style="vertical-align: middle">I agree to the above <b>Code of Conduct</b>.</label>
+   </td>
+</tr>
+<tr>
+   <td colspan="3" align="right">
+      <input type="submit" name="join" id="join" value="{{Join!}}" disabled="disabled" />
+   </td>
+</tr>
+</table>
+</td></tr></table>
+
+</form>
+
+<script type="text/javascript">
+    window.onload = function() {
+        var agree = document.getElementById("agree");
+        var join = document.getElementById("join");
+
+        // Setup the click handler.
+        agree.onclick = function() {
+            if(agree.checked) {
+                // We can proceed.
+                join.disabled = false;
+            } else {
+                // No way.
+                join.disabled = true;
+            }
+        }
+    };
+</script>

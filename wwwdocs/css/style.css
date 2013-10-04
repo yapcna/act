@@ -123,7 +123,7 @@ p {
 }
 a {
     color: #F2F2F2;
-    text-decoration: none;
+    text-decoration: underline;
 }
 a:hover {
     color: #FF0;

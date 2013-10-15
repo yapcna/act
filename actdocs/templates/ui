@@ -11,7 +11,6 @@
 [% END %]
 <!-- JavaScript sugar -->
 <script type="text/javascript" charset="utf-8" src="[% make_uri_info('js', 'jquery.min.js') %]" ></script> 
-<script type="text/javascript" charset="utf-8" src="[% make_uri_info('js', 'sweet-justice.min.js') %]" ></script> 
 <script src="/js/act.js"></script>
 
 

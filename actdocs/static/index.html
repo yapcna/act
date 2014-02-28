@@ -8,7 +8,7 @@ conference celebrates the Perl programming language and is meant to be
 accessible to anyone, regardless of experience, yet valuable to even the
 most skilled of programmers. Each year the conference attracts hundreds
 of programmers from around the world, including luminaries such as Larry
-Wall, Allison Randal, and Damian Conway.</p>
+Wall, Allison Randal, and Tim Bunce.</p>
 
 <ul>
     <li><a href="venue.html">DoubleTree by Hilton Orlando Downtown Orlando, FL</a></li>
@@ -20,29 +20,6 @@ Wall, Allison Randal, and Damian Conway.</p>
     <li>Early Bird Registration Price: $150 USD ($250.00 after Feb 28)</li>
 </ul>
 
-<p class="sweet-justice"> Watch this space for updates, or check the <a href="[% global.request.base_url %][% make_uri_info( 'atom', global.request.language ) %].xml">feed</a>. </p>
-
-[% news = global.news(5); IF news.size > 2; more = news.pop; END; %]
-
-[% IF news.size %]
-<h2>Latest News</h2>
-[% FOREACH item = news %]
-<div class="news-entry">
- <h3 class="news-header">
-  <span class="news-date">[% date_format(item.datetime, '%Y/%m/%d') %]</span>
-  <span class="news-title">[% item.title %]</span>
- </h3>
- <p class="news-text">
-  [% item.content %]
- </p>
-</div>
-[% END %]
-[% END %]
-
-[% IF more %]
-<p class="sweet-justice">
- <a href="[% make_uri('news') %]" class="news-link">Older announcements</a>
-</p>
-[% END %]
+<p class="sweet-justice"> Watch this space for updates, or check the <a href="http://blog.yapcna.org/">blog</a>. </p>
 
 [% END %]

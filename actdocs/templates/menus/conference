@@ -4,5 +4,5 @@
 <li> <a href="[% make_uri('call_for_speakers.html') %]">Call for Speakers</a></li>
 <li> <a href="[% make_uri('bof.html') %]">Call for BoFs</a> </li>
 <li> <a href="[% make_uri('venue.html') %]">Venue</a></li>
-<li> <a href="[% make_uri('news') %]">News</a> </li>
+<li> <a href="http://blog.yapcna.org">Blog</a> </li>
 <li> <a href="[% make_uri('wiki') %]">Wiki</a> </li>

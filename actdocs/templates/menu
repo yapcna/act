@@ -3,16 +3,16 @@
 [% PROCESS menus/conference %]
 [% PROCESS menus/users %]
 [% PROCESS menus/talks %]
+[% PROCESS menus/sponsors %]
 [% PROCESS menus/events %]
 [% PROCESS menus/treasurer %]
 [% PROCESS menus/admin %]
-[% PROCESS  menus/sponsors %]
 [% PROCESS menus/act_confs %]
 
 <div class="footer"> 
 <p> 
-    <a href="conduct.html">Standards of Conduct</a> &bull; <a href="colophon.html">Colophon</a><br/>
-    Site Design by <a href="http://tamarou.com">Tamarou</a> &bull; Image by <a rel="cc:attributionURL" href="http://www.flickr.com/photos/lhutton/4743800369/">Leander Hutton</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/">CC BY-NC-SA 2.0</a> 
-    &bull; Copyright &copy; <a href="http://dahut.pm.org">Dahut.pm</a> &bull; Powered by <a href="http://act.mongueurs.net/">Act</a>
+    <a href="conduct.html">Standards of Conduct</a> 
+    Site Design by <a href="http://tamarou.com">Tamarou</a> &bull; Image by <a rel="cc:attributionURL" href="http://www.flickr.com/photos/11654579@N07/">Scott Smith</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/">CC BY-NC-SA 2.0</a>.
+    &bull; Copyright &copy; <a href="http://orlando.pm.org">Orlando.pm</a> &bull; Powered by <a href="http://act.mongueurs.net/">Act</a>
 </p> 
 </div>

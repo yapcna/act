@@ -1,6 +1,5 @@
 <h2> Conference </h2>
-<!-- <li> <a href="[% make_uri('sponsorship.html') %]">Call for Sponsors</a></li> -->
-<li>Call for Sponsors *coming soon*</li>
+<li> <a href="[% make_uri('sponsorship.html') %]">Call for Sponsors</a></li>
 <li> <a href="[% make_uri('call_for_speakers.html') %]">Call for Speakers</a></li>
 <li> <a href="[% make_uri('bof.html') %]">Call for BoFs</a> </li>
 <li> <a href="[% make_uri('venue.html') %]">Venue</a></li>

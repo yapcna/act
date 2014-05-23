@@ -1,6 +1,8 @@
 <h2> Sponsors </h2>
 <ul>
-  <li>Coming Soon.</li>
+    <li> <a href="http://hostgator.com"><img src="[% make_uri('img/hostgator.png') %]"/></a></li> 
+    <li> <a href="http://booking.com"><img src="[% make_uri('img/booking.png') %]"/></a></li> 
+    <li> <a href="http://www.linode.com/"><img src="[% make_uri('img/linode.png') %]"/></a></li>
 </ul>
 <!--
 <li> <a href="http://cpanel.net"><img src="[% make_uri('img/cpanel.jpg') %]"/></a></li> 

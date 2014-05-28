@@ -1,3 +1,4 @@
+[% WRAPPER ui title = loc('Schedule') %]
 [% INCLUDE js/mytalks.js %]
 [% UNLESS ( global.request.user.is_talks_admin
          or global.request.user.is_staff
@@ -107,6 +108,7 @@
 <input type="hidden" name="day" value="[% day %]" />
 <input type="submit" class="mytalks_submit" value="{{Submit}}" />
 </form>
+[% END %]
 [% END %]
 [% END %]
 [% END %]

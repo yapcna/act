@@ -4,6 +4,7 @@
     <li> <a href="http://bluehost.com"><img src="[% make_uri('img/bluehost.png') %]"/></a></li> 
     <li> <a href="http://booking.com"><img src="[% make_uri('img/booking.png') %]"/></a></li> 
     <li> <a href="http://www.linode.com/"><img src="[% make_uri('img/linode.png') %]"/></a></li>
+    <li> <a href="http://www.grantstreet.com/"><img src="[% make_uri('img/grantstreetgroup.png') %]"/></a></li> 
 </ul>
 <!--
 <li> <a href="http://cpanel.net"><img src="[% make_uri('img/cpanel.jpg') %]"/></a></li> 
